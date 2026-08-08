@@ -98,26 +98,6 @@
       .join("");
   }
 
-  function renderPog(entries) {
-    if (entries && entries.length) {
-      return entries
-        .map(
-          (p) => `<div class="pog-card">
-            <div class="icon">POG</div>
-            <div class="body"><h3>${escapeHtml(p.player)} · ${escapeHtml(p.team || "")}</h3><p>${escapeHtml(p.champion || "")}</p></div>
-          </div>`
-        )
-        .join("");
-    }
-    return `<div class="pog-card placeholder">
-      <div class="icon">POG</div>
-      <div class="body">
-        <h3>Player of the Game — syncing</h3>
-        <p>Sourced from Leaguepedia. Populates automatically on the next scheduled sync.</p>
-      </div>
-    </div>`;
-  }
-
   function renderPanel(key, d) {
     return `<div class="grid">
       <section class="card">
@@ -132,8 +112,7 @@
         <div class="card-head"><h2>Upcoming</h2><span class="meta">Next ${d.upcoming.length}</span></div>
         ${renderUpcoming(d.upcoming)}
       </section>
-    </div>
-    <div class="pog-section">${renderPog(payload.pog[key])}</div>`;
+    </div>`;
   }
 
   function render() {

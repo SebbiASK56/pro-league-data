@@ -1,18 +1,22 @@
-// Fetches LCK/LPL/LEC standings, results, upcoming schedule from the lolesports.com
-// live API, plus best-effort Player of the Game data from Leaguepedia's Cargo API.
-// Writes docs/data.json, which the static site fetches at runtime.
+// Fetches LCK/LPL/LEC standings, results, and upcoming schedule from the
+// lolesports.com live API and writes docs/data.json, which the static site
+// fetches at runtime.
+//
+// Note: Player of the Game data lives only on Leaguepedia, whose Cargo API
+// blocks cloud/datacenter IP ranges outright (confirmed from both a sandboxed
+// dev environment and GitHub Actions runners) -- not something retries fix,
+// so it's intentionally left out here.
 
 const fs = require("fs");
 const path = require("path");
 
 const ESPORTS_API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z";
 const ESPORTS_BASE = "https://esports-api.lolesports.com/persisted/gw";
-const LEAGUEPEDIA_BASE = "https://lol.fandom.com/api.php";
 
 const LEAGUES = [
-  { key: "LEC", id: "98767991302996019", pogTournament: "LEC 2026 Split 3" },
-  { key: "LCK", id: "98767991310872058", pogTournament: "LCK 2026 Split 3" },
-  { key: "LPL", id: "98767991314006698", pogTournament: "LPL 2026 Split 3" },
+  { key: "LEC", id: "98767991302996019" },
+  { key: "LCK", id: "98767991310872058" },
+  { key: "LPL", id: "98767991314006698" },
 ];
 
 async function esportsFetch(pathAndQuery) {
@@ -96,78 +100,17 @@ async function fetchLeagueData(league) {
   };
 }
 
-async function findCurrentTournamentName(league) {
-  const today = new Date().toISOString().slice(0, 10);
-  const where = encodeURIComponent(
-    `Tournaments.League="${league.key}" AND Tournaments.DateStart<="${today}" AND Tournaments.Date>="${today}"`
-  );
-  const url = `${LEAGUEPEDIA_BASE}?action=cargoquery&tables=Tournaments&fields=Tournaments.Name,Tournaments.OverviewPage&where=${where}&order_by=Tournaments.DateStart%20DESC&limit=1&format=json`;
-  const res = await fetch(url, {
-    headers: { "User-Agent": "RiftReportBot/1.0 (contact:sebbifodor12@gmail.com)" },
-  });
-  console.log(`[pog] ${league.key} tournament lookup status=${res.status}`);
-  if (!res.ok) return null;
-  const json = await res.json();
-  if (json.error) {
-    console.log(`[pog] ${league.key} tournament lookup error:`, JSON.stringify(json.error));
-    return null;
-  }
-  const row = json.cargoquery && json.cargoquery[0];
-  if (!row) {
-    console.log(`[pog] ${league.key} no active tournament found in Leaguepedia Tournaments table`);
-    return null;
-  }
-  console.log(`[pog] ${league.key} resolved tournament name: ${row.title.Name}`);
-  return row.title.Name;
-}
-
-async function fetchPog(league) {
-  try {
-    const tournamentName = await findCurrentTournamentName(league);
-    if (!tournamentName) return [];
-
-    const where = encodeURIComponent(
-      `ScoreboardPlayers.Tournament="${tournamentName}" AND ScoreboardPlayers.PlayerWin="Yes"`
-    );
-    const url = `${LEAGUEPEDIA_BASE}?action=cargoquery&tables=ScoreboardPlayers&fields=ScoreboardPlayers.Link,ScoreboardPlayers.Team,ScoreboardPlayers.Champion,ScoreboardPlayers.DateTime_UTC&where=${where}&order_by=ScoreboardPlayers.DateTime_UTC%20DESC&limit=5&format=json`;
-    const res = await fetch(url, {
-      headers: { "User-Agent": "RiftReportBot/1.0 (contact:sebbifodor12@gmail.com)" },
-    });
-    console.log(`[pog] ${league.key} scoreboard query status=${res.status}`);
-    if (!res.ok) return [];
-    const json = await res.json();
-    if (json.error) {
-      console.log(`[pog] ${league.key} scoreboard query error:`, JSON.stringify(json.error));
-      return [];
-    }
-    if (!json.cargoquery) return [];
-    console.log(`[pog] ${league.key} got ${json.cargoquery.length} POG rows`);
-    return json.cargoquery.map((row) => ({
-      player: row.title.Link,
-      team: row.title.Team,
-      champion: row.title.Champion,
-      date: row.title["DateTime UTC"],
-    }));
-  } catch (err) {
-    console.error(`Leaguepedia POG fetch failed for ${league.key}:`, err.message);
-    return [];
-  }
-}
-
 async function main() {
   const data = {};
-  const pog = {};
 
   for (const league of LEAGUES) {
     console.log(`Fetching ${league.key}...`);
     data[league.key] = await fetchLeagueData(league);
-    pog[league.key] = await fetchPog(league);
   }
 
   const output = {
     generatedAt: new Date().toISOString(),
     leagues: data,
-    pog,
   };
 
   const outPath = path.join(__dirname, "..", "docs", "data.json");
