@@ -21,9 +21,10 @@
   }
 
   function relativeTime(iso) {
-    const mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
-    if (mins < 1) return "just now";
-    if (mins === 1) return "1 min ago";
+    const secs = Math.round((Date.now() - new Date(iso).getTime()) / 1000);
+    if (secs < 5) return "just now";
+    if (secs < 60) return `${secs}s ago`;
+    const mins = Math.round(secs / 60);
     if (mins < 60) return `${mins} min ago`;
     const hrs = Math.round(mins / 60);
     return `${hrs} ${hrs === 1 ? "hr" : "hrs"} ago`;
@@ -139,18 +140,29 @@
   }
 
   refreshBtn.addEventListener("click", async () => {
+    const previousGeneratedAt = payload && payload.generatedAt;
     refreshBtn.disabled = true;
     refreshBtn.textContent = "Refreshing…";
+    updatedEl.classList.remove("flash");
     try {
       await load(true);
+      const changed = payload.generatedAt !== previousGeneratedAt;
+      refreshBtn.textContent = changed ? "Updated ✓" : "Already current ✓";
+      // eslint-disable-next-line no-unused-expressions
+      updatedEl.offsetWidth; // restart the CSS animation
+      updatedEl.classList.add("flash");
+    } catch (err) {
+      refreshBtn.textContent = "Refresh failed";
     } finally {
-      refreshBtn.disabled = false;
-      refreshBtn.textContent = "Refresh";
+      setTimeout(() => {
+        refreshBtn.disabled = false;
+        refreshBtn.textContent = "Refresh";
+      }, 1400);
     }
   });
 
   load(false).then(() => {
-    setInterval(() => updatedEl.textContent = relativeTime(payload.generatedAt), 30000);
+    setInterval(() => updatedEl.textContent = relativeTime(payload.generatedAt), 5000);
     setInterval(() => load(true), 10 * 60 * 1000);
   }).catch((err) => {
     main.innerHTML = `<div class="empty-note" style="padding:60px 16px;">Couldn't load data: ${escapeHtml(err.message)}</div>`;
