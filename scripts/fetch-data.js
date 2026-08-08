@@ -96,18 +96,52 @@ async function fetchLeagueData(league) {
   };
 }
 
+async function findCurrentTournamentName(league) {
+  const today = new Date().toISOString().slice(0, 10);
+  const where = encodeURIComponent(
+    `Tournaments.League="${league.key}" AND Tournaments.DateStart<="${today}" AND Tournaments.Date>="${today}"`
+  );
+  const url = `${LEAGUEPEDIA_BASE}?action=cargoquery&tables=Tournaments&fields=Tournaments.Name,Tournaments.OverviewPage&where=${where}&order_by=Tournaments.DateStart%20DESC&limit=1&format=json`;
+  const res = await fetch(url, {
+    headers: { "User-Agent": "RiftReportBot/1.0 (contact:sebbifodor12@gmail.com)" },
+  });
+  console.log(`[pog] ${league.key} tournament lookup status=${res.status}`);
+  if (!res.ok) return null;
+  const json = await res.json();
+  if (json.error) {
+    console.log(`[pog] ${league.key} tournament lookup error:`, JSON.stringify(json.error));
+    return null;
+  }
+  const row = json.cargoquery && json.cargoquery[0];
+  if (!row) {
+    console.log(`[pog] ${league.key} no active tournament found in Leaguepedia Tournaments table`);
+    return null;
+  }
+  console.log(`[pog] ${league.key} resolved tournament name: ${row.title.Name}`);
+  return row.title.Name;
+}
+
 async function fetchPog(league) {
   try {
+    const tournamentName = await findCurrentTournamentName(league);
+    if (!tournamentName) return [];
+
     const where = encodeURIComponent(
-      `ScoreboardPlayers.Tournament="${league.pogTournament}" AND ScoreboardPlayers.PlayerWin="Yes"`
+      `ScoreboardPlayers.Tournament="${tournamentName}" AND ScoreboardPlayers.PlayerWin="Yes"`
     );
     const url = `${LEAGUEPEDIA_BASE}?action=cargoquery&tables=ScoreboardPlayers&fields=ScoreboardPlayers.Link,ScoreboardPlayers.Team,ScoreboardPlayers.Champion,ScoreboardPlayers.DateTime_UTC&where=${where}&order_by=ScoreboardPlayers.DateTime_UTC%20DESC&limit=5&format=json`;
     const res = await fetch(url, {
       headers: { "User-Agent": "RiftReportBot/1.0 (contact:sebbifodor12@gmail.com)" },
     });
+    console.log(`[pog] ${league.key} scoreboard query status=${res.status}`);
     if (!res.ok) return [];
     const json = await res.json();
+    if (json.error) {
+      console.log(`[pog] ${league.key} scoreboard query error:`, JSON.stringify(json.error));
+      return [];
+    }
     if (!json.cargoquery) return [];
+    console.log(`[pog] ${league.key} got ${json.cargoquery.length} POG rows`);
     return json.cargoquery.map((row) => ({
       player: row.title.Link,
       team: row.title.Team,
