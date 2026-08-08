@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:04:16.442Z",
+  "generatedAt": "2026-08-08T13:42:19.575Z",
   "leagues": {
     "LEC": {
       "tournamentSlug": "lec_split_3_2026",
@@ -515,11 +515,11 @@
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins": 6,
+          "wins": 7,
           "losses": 1
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
@@ -572,7 +572,7 @@
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
           "wins": 0,
-          "losses": 7
+          "losses": 8
         }
       ],
       "results": [
@@ -670,7 +670,7 @@
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 1
+          "wins2": 2
         }
       ],
       "upcoming": [
