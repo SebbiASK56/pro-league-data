@@ -34,6 +34,7 @@ jobs:
           if ! git diff --quiet -- docs/data.json; then
             git add docs/data.json
             git commit -m "Update league data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase --autostash
             git push
           else
             echo "No data changes."
