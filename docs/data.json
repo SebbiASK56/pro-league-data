@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T17:38:06.288Z",
+  "generatedAt": "2026-08-08T18:03:29.654Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -25,6 +25,16 @@
         },
         {
           "rank": 3,
+          "name": "Natus Vincere",
+          "code": "NAVI",
+          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "matchWins": 2,
+          "matchLosses": 1,
+          "gameWins": 4,
+          "gameLosses": 3
+        },
+        {
+          "rank": 4,
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
@@ -34,7 +44,7 @@
           "gameLosses": 5
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "GIANTX",
           "code": "GX",
           "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
@@ -44,27 +54,7 @@
           "gameLosses": 3
         },
         {
-          "rank": 4,
-          "name": "Natus Vincere",
-          "code": "NAVI",
-          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "matchWins": 1,
-          "matchLosses": 1,
-          "gameWins": 2,
-          "gameLosses": 2
-        },
-        {
           "rank": 6,
-          "name": "SK Gaming",
-          "code": "SK",
-          "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "matchWins": 1,
-          "matchLosses": 1,
-          "gameWins": 2,
-          "gameLosses": 3
-        },
-        {
-          "rank": 7,
           "name": "Movistar KOI",
           "code": "MKOI",
           "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
@@ -72,6 +62,16 @@
           "matchLosses": 3,
           "gameWins": 6,
           "gameLosses": 8
+        },
+        {
+          "rank": 7,
+          "name": "SK Gaming",
+          "code": "SK",
+          "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "matchWins": 1,
+          "matchLosses": 2,
+          "gameWins": 3,
+          "gameLosses": 5
         },
         {
           "rank": 8,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-01T15:00:00Z",
-          "blockName": "Week 2",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "wins1": 1,
-          "team2": "SK Gaming",
-          "code2": "SK",
-          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-01T17:15:00Z",
           "blockName": "Week 2",
@@ -200,20 +188,21 @@
           "code2": "FNC",
           "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "wins2": 1
+        },
+        {
+          "startTime": "2026-08-08T15:00:00Z",
+          "blockName": "Week 3",
+          "team1": "Natus Vincere",
+          "code1": "NAVI",
+          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "wins1": 2,
+          "team2": "SK Gaming",
+          "code2": "SK",
+          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-08T17:15:00Z",
-          "blockName": "Week 3",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "team2": "Movistar KOI",
-          "code2": "MKOI",
-          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-09T15:00:00Z",
           "blockName": "Week 3",
@@ -289,6 +278,17 @@
           "team2": "Fnatic",
           "code2": "FNC",
           "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-15T17:15:00Z",
+          "blockName": "Week 4",
+          "team1": "Shifters",
+          "code1": "SHFT",
+          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
+          "team2": "G2 Esports",
+          "code2": "G2",
+          "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
           "bestOf": 3
         }
       ]
