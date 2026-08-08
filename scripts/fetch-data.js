@@ -31,7 +31,10 @@ const HISTORY_PAGES = 4; // pages of "older" schedule to fetch beyond the defaul
 const LEAGUES = [
   { key: "LEC", id: "98767991302996019" },
   { key: "LCK", id: "98767991310872058" },
-  { key: "LPL", id: "98767991314006698" },
+  // LPL Split 3 splits its 12 teams into an 8-team "Group Ascend" and a
+  // separate 4-team round robin ("Group Nirvana"). Only the larger group
+  // is the main standings table -- mainGroupOnly restricts to it.
+  { key: "LPL", id: "98767991314006698", mainGroupOnly: true },
 ];
 
 async function esportsFetch(pathAndQuery) {
@@ -192,10 +195,58 @@ function computeStandings(events) {
   });
 }
 
+// When a league splits its field into multiple concurrent round robins
+// (e.g. LPL's 8-team "Group Ascend" vs 4-team "Group Nirvana"), returns the
+// set of team codes in the largest such group -- i.e. the main standings
+// table. Returns null if the current tournament has no such split (so
+// callers should skip filtering).
+async function fetchMainGroupCodes(leagueId) {
+  const tournaments = await esportsFetch(`/getTournamentsForLeague?hl=en-US&leagueId=${leagueId}`);
+  const today = new Date().toISOString().slice(0, 10);
+  const current = tournaments.data.leagues[0].tournaments
+    .filter((t) => t.startDate <= today)
+    .sort((a, b) => (a.startDate < b.startDate ? 1 : -1))[0];
+  if (!current) return null;
+
+  const standings = await esportsFetch(`/getStandings?hl=en-US&tournamentId=${current.id}`);
+  const stages = standings.data.standings[0]?.stages || [];
+  for (const stage of stages) {
+    if (stage.sections.length < 2) continue;
+    const groups = stage.sections.map((sec) => {
+      const codes = new Set();
+      for (const rank of sec.rankings) {
+        for (const team of rank.teams) codes.add(team.code);
+      }
+      return codes;
+    });
+    const largest = groups.reduce((a, b) => (b.size > a.size ? b : a));
+    if (largest.size > 0 && groups.some((g) => g.size !== largest.size)) {
+      return largest;
+    }
+  }
+  return null;
+}
+
 async function fetchLeagueData(league) {
   const events = await fetchFullSchedule(league.id);
+  let standings = computeStandings(events);
+
+  if (league.mainGroupOnly) {
+    const mainGroupCodes = await fetchMainGroupCodes(league.id);
+    if (mainGroupCodes) {
+      standings = standings.filter((row) => mainGroupCodes.has(row.code));
+      // Re-derive ranks (1, 2, 2, 4, ...) now that the excluded group's
+      // rows are gone, rather than leaving gaps from the original ordering.
+      standings.forEach((row, i) => {
+        row.rank = i > 0 && row.matchWins === standings[i - 1].matchWins && row.matchLosses === standings[i - 1].matchLosses
+          ? standings[i - 1].rank
+          : i + 1;
+      });
+    }
+  }
+
   return {
-    standings: computeStandings(events),
+    standings,
     results: extractResults(events),
     upcoming: extractUpcoming(events),
   };
