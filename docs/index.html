@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rift Report — LCK / LPL / LEC</title>
+<meta name="description" content="Live standings, results, schedule and Player of the Game for LCK, LPL and LEC." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="masthead">
+  <div class="brand">
+    <h1>Rift Report<span class="dot">.</span></h1>
+    <span class="tag">LCK · LPL · LEC</span>
+  </div>
+  <div class="status-row">
+    <span class="live-dot" aria-hidden="true"></span>
+    <span>Updated <span class="updated" id="updated-at">—</span></span>
+    <button class="refresh-btn" id="refresh-btn" type="button">Refresh</button>
+  </div>
+</div>
+
+<div class="tabs" id="tabs" role="tablist">
+  <button class="tab active" data-league="LEC" role="tab"><span class="chip"></span>LEC</button>
+  <button class="tab" data-league="LCK" role="tab"><span class="chip"></span>LCK</button>
+  <button class="tab" data-league="LPL" role="tab"><span class="chip"></span>LPL</button>
+</div>
+
+<main id="main">
+  <div class="empty-note" style="padding:60px 16px;">Loading live data…</div>
+</main>
+
+<footer>
+  Standings, results and schedule via the LoL Esports live API. Player of the Game data is sourced from Leaguepedia.
+  Data refreshes automatically every 10 minutes. Times shown in your local timezone. Not affiliated with Riot Games.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
