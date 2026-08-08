@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T12:57:49.797Z",
+  "generatedAt": "2026-08-08T13:04:16.442Z",
   "leagues": {
     "LEC": {
       "tournamentSlug": "lec_split_3_2026",
@@ -764,10 +764,5 @@
         }
       ]
     }
-  },
-  "pog": {
-    "LEC": [],
-    "LCK": [],
-    "LPL": []
   }
 }
