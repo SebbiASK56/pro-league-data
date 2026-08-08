@@ -95,14 +95,30 @@ function computeStandings(events) {
     .filter((e) => e.state === "completed" && REGULAR_SEASON_WEEK.test(e.blockName || ""))
     .sort((a, b) => (a.startTime < b.startTime ? -1 : 1));
 
-  let windowStartIdx = 0;
-  for (let i = weekEvents.length - 1; i >= 0; i--) {
-    if (REGULAR_SEASON_WEEK.exec(weekEvents[i].blockName)[1] === "1") {
-      windowStartIdx = i;
-      break;
-    }
+  // Each "Week 1" round is itself spread across several days (different
+  // teams play on different days within the same round), so a single
+  // timestamp cutoff at the latest "Week 1" match would clip other teams'
+  // earlier games from that same round. Instead, cluster the "Week 1"
+  // matches: walking backward from the most recent one, keep pulling in
+  // earlier "Week 1" matches as long as consecutive ones are within
+  // WEEK1_CLUSTER_GAP_DAYS of each other -- that reliably groups one round
+  // together while stopping at the multi-month gap to the previous split's
+  // "Week 1". The earliest match in that final cluster marks where the
+  // current regular-season window begins.
+  const WEEK1_CLUSTER_GAP_DAYS = 21;
+  const week1Events = weekEvents
+    .filter((e) => Number(REGULAR_SEASON_WEEK.exec(e.blockName)[1]) === 1)
+    .sort((a, b) => (a.startTime < b.startTime ? 1 : -1)); // descending
+
+  let windowStart = week1Events.length ? week1Events[0].startTime : weekEvents[0]?.startTime;
+  let prevTime = windowStart ? new Date(windowStart).getTime() : 0;
+  for (const e of week1Events) {
+    const t = new Date(e.startTime).getTime();
+    if (prevTime - t > WEEK1_CLUSTER_GAP_DAYS * 24 * 60 * 60 * 1000) break;
+    windowStart = e.startTime;
+    prevTime = t;
   }
-  const currentWindow = weekEvents.slice(windowStartIdx);
+  const currentWindow = weekEvents.filter((e) => e.startTime >= windowStart);
 
   const teams = new Map(); // code -> { name, code, image, matchWins, matchLosses, gameWins, gameLosses }
   function getTeam(t) {
