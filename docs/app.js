@@ -38,8 +38,8 @@
   function renderStandings(rows) {
     const trs = rows
       .map((r) => {
-        const total = r.wins + r.losses;
-        const pct = total ? Math.round((r.wins / total) * 100) : 0;
+        const matchTotal = r.matchWins + r.matchLosses;
+        const pct = matchTotal ? Math.round((r.matchWins / matchTotal) * 100) : 0;
         return `<tr>
           <td><span class="rank-num">${r.rank}</span></td>
           <td>
@@ -51,15 +51,16 @@
               </div>
             </div>
           </td>
-          <td class="num record"><span class="w">${r.wins}</span>–<span class="l">${r.losses}</span></td>
+          <td class="num record"><span class="w">${r.matchWins}</span>–<span class="l">${r.matchLosses}</span></td>
+          <td class="num record faint">${r.gameWins}–${r.gameLosses}</td>
           <td class="num record">${pct}%</td>
         </tr>`;
       })
       .join("");
-    return `<table class="standings">
-      <thead><tr><th></th><th>Team</th><th class="num">W–L</th><th class="num">Win%</th></tr></thead>
+    return `<div class="table-scroll"><table class="standings">
+      <thead><tr><th></th><th>Team</th><th class="num">Matches</th><th class="num">Games</th><th class="num">Win%</th></tr></thead>
       <tbody>${trs}</tbody>
-    </table>`;
+    </table></div>`;
   }
 
   function renderResults(rows) {

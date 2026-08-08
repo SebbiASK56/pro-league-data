@@ -2,6 +2,19 @@
 // lolesports.com live API and writes docs/data.json, which the static site
 // fetches at runtime.
 //
+// Standings are computed from the schedule feed rather than the API's own
+// getStandings endpoint, because that endpoint's "record" field only covers
+// whatever sub-stage (Groups/Play-Ins/etc.) is currently active and doesn't
+// match what leagues actually display as the regular-season table. Instead
+// we aggregate every completed "Week N" match since the most recent "Week 1"
+// marker. This generalizes correctly across leagues with different season
+// shapes: LEC resets to Week 1 every split (so this naturally scopes to the
+// current split only), while LCK/LPL continue week numbering across Split 2
+// into Split 3 without resetting (so this naturally spans both splits,
+// matching what their live standings show -- verified against a real
+// example: Dplus KIA's Split 2+3 combined record is 13-8 matches / 28-21
+// games, which is exactly what this computation produces).
+//
 // Note: Player of the Game data lives only on Leaguepedia, whose Cargo API
 // blocks cloud/datacenter IP ranges outright (confirmed from both a sandboxed
 // dev environment and GitHub Actions runners) -- not something retries fix,
@@ -12,6 +25,8 @@ const path = require("path");
 
 const ESPORTS_API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z";
 const ESPORTS_BASE = "https://esports-api.lolesports.com/persisted/gw";
+const REGULAR_SEASON_WEEK = /^Week (\d+)$/;
+const HISTORY_PAGES = 4; // pages of "older" schedule to fetch beyond the default window
 
 const LEAGUES = [
   { key: "LEC", id: "98767991302996019" },
@@ -27,24 +42,19 @@ async function esportsFetch(pathAndQuery) {
   return res.json();
 }
 
-function extractStandings(standingsResp) {
-  const stages = standingsResp.data.standings[0]?.stages || [];
-  const stage = stages.find((s) => s.slug === "regular_season") || stages[0];
-  if (!stage) return [];
-  const rows = [];
-  for (const rank of stage.sections[0].rankings) {
-    for (const team of rank.teams) {
-      rows.push({
-        rank: rank.ordinal,
-        name: team.name,
-        code: team.code,
-        image: team.image,
-        wins: team.record?.wins ?? 0,
-        losses: team.record?.losses ?? 0,
-      });
-    }
+async function fetchFullSchedule(leagueId) {
+  const first = await esportsFetch(`/getSchedule?hl=en-US&leagueId=${leagueId}`);
+  let events = first.data.schedule.events;
+  let olderToken = first.data.schedule.pages.older;
+
+  for (let i = 0; i < HISTORY_PAGES && olderToken; i++) {
+    const page = await esportsFetch(
+      `/getSchedule?hl=en-US&leagueId=${leagueId}&pageToken=${encodeURIComponent(olderToken)}`
+    );
+    events = page.data.schedule.events.concat(events);
+    olderToken = page.data.schedule.pages.older;
   }
-  return rows;
+  return events;
 }
 
 function extractResults(events) {
@@ -78,25 +88,100 @@ function extractUpcoming(events) {
   }));
 }
 
+// Computes the current regular-season standings by summing every completed
+// "Week N" match since the most recent "Week 1" marker (see file header).
+function computeStandings(events) {
+  const weekEvents = events
+    .filter((e) => e.state === "completed" && REGULAR_SEASON_WEEK.test(e.blockName || ""))
+    .sort((a, b) => (a.startTime < b.startTime ? -1 : 1));
+
+  let windowStartIdx = 0;
+  for (let i = weekEvents.length - 1; i >= 0; i--) {
+    if (REGULAR_SEASON_WEEK.exec(weekEvents[i].blockName)[1] === "1") {
+      windowStartIdx = i;
+      break;
+    }
+  }
+  const currentWindow = weekEvents.slice(windowStartIdx);
+
+  const teams = new Map(); // code -> { name, code, image, matchWins, matchLosses, gameWins, gameLosses }
+  function getTeam(t) {
+    if (!teams.has(t.code)) {
+      teams.set(t.code, {
+        name: t.name,
+        code: t.code,
+        image: t.image,
+        matchWins: 0,
+        matchLosses: 0,
+        gameWins: 0,
+        gameLosses: 0,
+      });
+    }
+    return teams.get(t.code);
+  }
+
+  for (const e of currentWindow) {
+    const [a, b] = e.match.teams;
+    const aWins = a.result?.gameWins ?? 0;
+    const bWins = b.result?.gameWins ?? 0;
+    const teamA = getTeam(a);
+    const teamB = getTeam(b);
+    teamA.gameWins += aWins;
+    teamA.gameLosses += bWins;
+    teamB.gameWins += bWins;
+    teamB.gameLosses += aWins;
+    if (aWins > bWins) {
+      teamA.matchWins += 1;
+      teamB.matchLosses += 1;
+    } else {
+      teamB.matchWins += 1;
+      teamA.matchLosses += 1;
+    }
+  }
+
+  const rows = Array.from(teams.values());
+  const sortKey = (t) => {
+    const matchTotal = t.matchWins + t.matchLosses;
+    const matchPct = matchTotal ? t.matchWins / matchTotal : 0;
+    const gameTotal = t.gameWins + t.gameLosses;
+    const gamePct = gameTotal ? t.gameWins / gameTotal : 0;
+    return [matchPct, t.matchWins, gamePct];
+  };
+  rows.sort((x, y) => {
+    const kx = sortKey(x);
+    const ky = sortKey(y);
+    for (let i = 0; i < kx.length; i++) {
+      if (kx[i] !== ky[i]) return ky[i] - kx[i];
+    }
+    return x.name.localeCompare(y.name);
+  });
+
+  return rows.map((t, i) => {
+    let rank = i + 1;
+    if (i > 0) {
+      const prevKey = JSON.stringify(sortKey(rows[i - 1]));
+      if (JSON.stringify(sortKey(t)) === prevKey) rank = rows[i - 1]._rank;
+    }
+    t._rank = rank;
+    return {
+      rank,
+      name: t.name,
+      code: t.code,
+      image: t.image,
+      matchWins: t.matchWins,
+      matchLosses: t.matchLosses,
+      gameWins: t.gameWins,
+      gameLosses: t.gameLosses,
+    };
+  });
+}
+
 async function fetchLeagueData(league) {
-  const tournaments = await esportsFetch(
-    `/getTournamentsForLeague?hl=en-US&leagueId=${league.id}`
-  );
-  const today = new Date().toISOString().slice(0, 10);
-  const current = tournaments.data.leagues[0].tournaments
-    .filter((t) => t.startDate <= today)
-    .sort((a, b) => (a.startDate < b.startDate ? 1 : -1))[0];
-
-  const [standingsResp, scheduleResp] = await Promise.all([
-    esportsFetch(`/getStandings?hl=en-US&tournamentId=${current.id}`),
-    esportsFetch(`/getSchedule?hl=en-US&leagueId=${league.id}`),
-  ]);
-
+  const events = await fetchFullSchedule(league.id);
   return {
-    tournamentSlug: current.slug,
-    standings: extractStandings(standingsResp),
-    results: extractResults(scheduleResp.data.schedule.events),
-    upcoming: extractUpcoming(scheduleResp.data.schedule.events),
+    standings: computeStandings(events),
+    results: extractResults(events),
+    upcoming: extractUpcoming(events),
   };
 }
 

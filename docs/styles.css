@@ -213,6 +213,7 @@ main { padding: 20px clamp(16px, 4vw, 40px) 0; }
 }
 .card-head .meta { font-size: 11.5px; color: var(--text-faint); font-family: var(--font-mono); }
 
+.table-scroll { overflow-x: auto; }
 table.standings { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 table.standings th {
   text-align: left; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase;
@@ -229,6 +230,7 @@ table.standings tr:first-child td { border-top: none; }
 td.record { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 td.record .w { color: var(--win); }
 td.record .l { color: var(--loss); }
+td.record.faint { color: var(--text-faint); font-size: 12px; }
 .winrate-bar { height: 3px; background: var(--surface-3); border-radius: 2px; overflow: hidden; margin-top: 5px; width: 100%; }
 .winrate-bar span { display: block; height: 100%; background: var(--accent); }
 
