@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:52:40.595Z",
+  "generatedAt": "2026-08-08T13:56:36.687Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -8,43 +8,33 @@
           "name": "Karmine Corp",
           "code": "KC",
           "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "matchWins": 3,
+          "matchWins": 5,
           "matchLosses": 0,
-          "gameWins": 6,
+          "gameWins": 10,
           "gameLosses": 1
         },
         {
           "rank": 2,
-          "name": "Movistar KOI",
-          "code": "MKOI",
-          "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "matchWins": 2,
-          "matchLosses": 0,
-          "gameWins": 4,
-          "gameLosses": 2
+          "name": "G2 Esports",
+          "code": "G2",
+          "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "matchWins": 3,
+          "matchLosses": 1,
+          "gameWins": 7,
+          "gameLosses": 3
         },
         {
           "rank": 3,
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "matchWins": 1,
-          "matchLosses": 0,
-          "gameWins": 2,
-          "gameLosses": 0
+          "matchWins": 2,
+          "matchLosses": 2,
+          "gameWins": 4,
+          "gameLosses": 5
         },
         {
           "rank": 4,
-          "name": "G2 Esports",
-          "code": "G2",
-          "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "matchWins": 1,
-          "matchLosses": 1,
-          "gameWins": 3,
-          "gameLosses": 2
-        },
-        {
-          "rank": 5,
           "name": "GIANTX",
           "code": "GX",
           "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
@@ -54,7 +44,7 @@
           "gameLosses": 3
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Natus Vincere",
           "code": "NAVI",
           "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
@@ -64,7 +54,7 @@
           "gameLosses": 2
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "SK Gaming",
           "code": "SK",
           "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
@@ -72,6 +62,16 @@
           "matchLosses": 1,
           "gameWins": 2,
           "gameLosses": 3
+        },
+        {
+          "rank": 7,
+          "name": "Movistar KOI",
+          "code": "MKOI",
+          "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "matchWins": 2,
+          "matchLosses": 3,
+          "gameWins": 6,
+          "gameLosses": 8
         },
         {
           "rank": 8,
@@ -297,73 +297,73 @@
       "standings": [
         {
           "rank": 1,
-          "name": "Gen.G Esports",
-          "code": "GEN",
-          "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "name": "T1",
+          "code": "T1",
+          "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "matchWins": 16,
-          "matchLosses": 5,
-          "gameWins": 33,
+          "matchLosses": 6,
+          "gameWins": 35,
           "gameLosses": 14
         },
         {
           "rank": 2,
-          "name": "T1",
-          "code": "T1",
-          "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "matchWins": 15,
-          "matchLosses": 5,
-          "gameWins": 33,
-          "gameLosses": 12
+          "name": "Gen.G Esports",
+          "code": "GEN",
+          "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "matchWins": 16,
+          "matchLosses": 6,
+          "gameWins": 34,
+          "gameLosses": 16
         },
         {
           "rank": 3,
           "name": "Hanwha Life Esports",
           "code": "HLE",
           "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "matchWins": 15,
-          "matchLosses": 5,
-          "gameWins": 35,
-          "gameLosses": 16
+          "matchWins": 16,
+          "matchLosses": 6,
+          "gameWins": 37,
+          "gameLosses": 18
         },
         {
           "rank": 4,
           "name": "kt Rolster",
           "code": "KT",
           "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "matchWins": 13,
+          "matchWins": 15,
           "matchLosses": 6,
-          "gameWins": 26,
-          "gameLosses": 17
+          "gameWins": 30,
+          "gameLosses": 18
         },
         {
           "rank": 5,
           "name": "Dplus KIA",
           "code": "DK",
           "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "matchWins": 12,
-          "matchLosses": 7,
-          "gameWins": 26,
-          "gameLosses": 19
+          "matchWins": 13,
+          "matchLosses": 8,
+          "gameWins": 28,
+          "gameLosses": 21
         },
         {
           "rank": 6,
+          "name": "HANJIN BRION",
+          "code": "BRO",
+          "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "matchWins": 8,
+          "matchLosses": 14,
+          "gameWins": 22,
+          "gameLosses": 29
+        },
+        {
+          "rank": 7,
           "name": "KIWOOM DRX",
           "code": "KRX",
           "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "matchWins": 7,
-          "matchLosses": 12,
+          "matchLosses": 14,
           "gameWins": 20,
-          "gameLosses": 27
-        },
-        {
-          "rank": 7,
-          "name": "HANJIN BRION",
-          "code": "BRO",
-          "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "matchWins": 7,
-          "matchLosses": 13,
-          "gameWins": 20,
-          "gameLosses": 27
+          "gameLosses": 31
         },
         {
           "rank": 8,
@@ -371,18 +371,18 @@
           "code": "BFX",
           "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "matchWins": 7,
-          "matchLosses": 13,
+          "matchLosses": 14,
           "gameWins": 17,
-          "gameLosses": 27
+          "gameLosses": 29
         },
         {
           "rank": 9,
           "name": "NONGSHIM RED FORCE",
           "code": "NS",
           "image": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "matchWins": 5,
+          "matchWins": 7,
           "matchLosses": 15,
-          "gameWins": 14,
+          "gameWins": 18,
           "gameLosses": 33
         },
         {
@@ -390,10 +390,10 @@
           "name": "DN SOOPers",
           "code": "DNS",
           "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "matchWins": 2,
-          "matchLosses": 18,
-          "gameWins": 5,
-          "gameLosses": 37
+          "matchWins": 3,
+          "matchLosses": 19,
+          "gameWins": 7,
+          "gameLosses": 39
         }
       ],
       "results": [
@@ -592,9 +592,9 @@
           "name": "Shenzhen NINJAS IN PYJAMAS",
           "code": "NIP",
           "image": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "matchWins": 2,
+          "matchWins": 3,
           "matchLosses": 0,
-          "gameWins": 4,
+          "gameWins": 6,
           "gameLosses": 1
         },
         {
@@ -602,90 +602,90 @@
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "matchWins": 5,
+          "matchWins": 7,
           "matchLosses": 1,
-          "gameWins": 10,
-          "gameLosses": 4
+          "gameWins": 14,
+          "gameLosses": 6
         },
         {
           "rank": 3,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 4,
+          "matchWins": 6,
           "matchLosses": 1,
-          "gameWins": 8,
-          "gameLosses": 3
+          "gameWins": 12,
+          "gameLosses": 4
         },
         {
           "rank": 4,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 4,
+          "matchWins": 6,
           "matchLosses": 2,
-          "gameWins": 9,
-          "gameLosses": 4
-        },
-        {
-          "rank": 5,
-          "name": "Xi'an Team WE",
-          "code": "WE",
-          "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "matchWins": 3,
-          "matchLosses": 2,
-          "gameWins": 7,
+          "gameWins": 13,
           "gameLosses": 5
         },
         {
+          "rank": 5,
+          "name": "Invictus Gaming",
+          "code": "IG",
+          "image": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+          "matchWins": 2,
+          "matchLosses": 1,
+          "gameWins": 5,
+          "gameLosses": 3
+        },
+        {
           "rank": 6,
+          "name": "Xi'an Team WE",
+          "code": "WE",
+          "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "matchWins": 5,
+          "matchLosses": 3,
+          "gameWins": 11,
+          "gameLosses": 8
+        },
+        {
+          "rank": 7,
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
           "matchWins": 3,
-          "matchLosses": 2,
-          "gameWins": 6,
-          "gameLosses": 6
-        },
-        {
-          "rank": 7,
-          "name": "Invictus Gaming",
-          "code": "IG",
-          "image": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "matchWins": 1,
-          "matchLosses": 1,
-          "gameWins": 3,
-          "gameLosses": 2
+          "matchLosses": 4,
+          "gameWins": 8,
+          "gameLosses": 10
         },
         {
           "rank": 8,
+          "name": "THUNDER TALK GAMING",
+          "code": "TT",
+          "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
+          "matchWins": 3,
+          "matchLosses": 5,
+          "gameWins": 10,
+          "gameLosses": 12
+        },
+        {
+          "rank": 9,
           "name": "WeiboGaming",
           "code": "WBG",
           "image": "http://static.lolesports.com/teams/1641202879910_3.png",
           "matchWins": 1,
-          "matchLosses": 1,
-          "gameWins": 2,
-          "gameLosses": 2
-        },
-        {
-          "rank": 9,
-          "name": "THUNDER TALK GAMING",
-          "code": "TT",
-          "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "matchWins": 2,
-          "matchLosses": 3,
-          "gameWins": 6,
-          "gameLosses": 8
+          "matchLosses": 2,
+          "gameWins": 3,
+          "gameLosses": 4
         },
         {
           "rank": 10,
           "name": "LGD GAMING",
           "code": "LGD",
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "matchWins": 0,
-          "matchLosses": 5,
-          "gameWins": 4,
-          "gameLosses": 10
+          "matchWins": 1,
+          "matchLosses": 7,
+          "gameWins": 6,
+          "gameLosses": 14
         },
         {
           "rank": 11,
@@ -693,19 +693,19 @@
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
           "matchWins": 0,
-          "matchLosses": 5,
-          "gameWins": 0,
-          "gameLosses": 10
+          "matchLosses": 8,
+          "gameWins": 1,
+          "gameLosses": 16
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Suzhou LNG Esports",
           "code": "LNG",
           "image": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
           "matchWins": 0,
-          "matchLosses": 2,
+          "matchLosses": 3,
           "gameWins": 0,
-          "gameLosses": 4
+          "gameLosses": 6
         }
       ],
       "results": [
