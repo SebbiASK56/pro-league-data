@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:03:35.500Z",
+  "generatedAt": "2026-08-09T18:58:53.233Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -8,9 +8,9 @@
           "name": "Karmine Corp",
           "code": "KC",
           "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "matchWins": 5,
+          "matchWins": 6,
           "matchLosses": 0,
-          "gameWins": 10,
+          "gameWins": 12,
           "gameLosses": 1
         },
         {
@@ -89,12 +89,12 @@
           "code": "FNC",
           "image": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "matchWins": 0,
-          "matchLosses": 2,
+          "matchLosses": 3,
           "gameWins": 2,
-          "gameLosses": 4
+          "gameLosses": 6
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "Shifters",
           "code": "SHFT",
           "image": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-02T17:15:00Z",
-          "blockName": "Week 2",
-          "team1": "Movistar KOI",
-          "code1": "MKOI",
-          "image1": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "wins1": 2,
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "wins2": 1
-        },
         {
           "startTime": "2026-08-03T15:00:00Z",
           "blockName": "Week 2",
@@ -199,6 +187,18 @@
           "team2": "Team Heretics",
           "code2": "TH",
           "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins2": 0
+        },
+        {
+          "startTime": "2026-08-09T17:15:00Z",
+          "blockName": "Week 3",
+          "team1": "Karmine Corp",
+          "code1": "KC",
+          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
+          "wins1": 2,
+          "team2": "Fnatic",
+          "code2": "FNC",
+          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "wins2": 0
         }
       ],
