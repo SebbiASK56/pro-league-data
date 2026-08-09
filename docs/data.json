@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:52:59.777Z",
+  "generatedAt": "2026-08-09T15:35:34.068Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-09T15:00:00Z",
-          "blockName": "Week 3",
-          "team1": "G2 Esports",
-          "code1": "G2",
-          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "team2": "Team Heretics",
-          "code2": "TH",
-          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-09T17:15:00Z",
           "blockName": "Week 3",
           "team1": "Karmine Corp",
@@ -289,6 +278,17 @@
           "team2": "G2 Esports",
           "code2": "G2",
           "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-16T15:00:00Z",
+          "blockName": "Week 4",
+          "team1": "Natus Vincere",
+          "code1": "NAVI",
+          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "team2": "Movistar KOI",
+          "code2": "MKOI",
+          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
           "bestOf": 3
         }
       ]
