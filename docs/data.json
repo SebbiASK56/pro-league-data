@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T07:27:17.835Z",
+  "generatedAt": "2026-08-09T08:10:15.850Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-09T08:00:00Z",
-          "blockName": "Week 11",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "team2": "kt Rolster",
-          "code2": "KT",
-          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-09T10:00:00Z",
           "blockName": "Week 11",
           "team1": "BNK FEARX",
@@ -581,6 +570,17 @@
           "team2": "HANJIN BRION",
           "code2": "BRO",
           "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-15T08:00:00Z",
+          "blockName": "Week 12",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "team2": "kt Rolster",
+          "code2": "KT",
+          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "bestOf": 3
         }
       ]
@@ -739,7 +739,7 @@
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-09T09:00:00Z",
