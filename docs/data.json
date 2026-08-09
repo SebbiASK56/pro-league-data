@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T12:18:15.599Z",
+  "generatedAt": "2026-08-09T13:27:01.214Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -357,23 +357,23 @@
         },
         {
           "rank": 7,
+          "name": "BNK FEARX",
+          "code": "BFX",
+          "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "matchWins": 8,
+          "matchLosses": 14,
+          "gameWins": 19,
+          "gameLosses": 29
+        },
+        {
+          "rank": 8,
           "name": "KIWOOM DRX",
           "code": "KRX",
           "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "matchWins": 7,
-          "matchLosses": 14,
+          "matchLosses": 15,
           "gameWins": 20,
-          "gameLosses": 31
-        },
-        {
-          "rank": 8,
-          "name": "BNK FEARX",
-          "code": "BFX",
-          "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "matchWins": 7,
-          "matchLosses": 14,
-          "gameWins": 17,
-          "gameLosses": 29
+          "gameLosses": 33
         },
         {
           "rank": 9,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-05T10:00:00Z",
-          "blockName": "Week 11",
-          "team1": "Gen.G Esports",
-          "code1": "GEN",
-          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "wins1": 2,
-          "team2": "Hanwha Life Esports",
-          "code2": "HLE",
-          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "wins2": 1
-        },
         {
           "startTime": "2026-08-06T08:00:00Z",
           "blockName": "Week 11",
@@ -492,6 +480,18 @@
           "code2": "DK",
           "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-09T10:00:00Z",
+          "blockName": "Week 11",
+          "team1": "BNK FEARX",
+          "code1": "BFX",
+          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins1": 2,
+          "team2": "KIWOOM DRX",
+          "code2": "KRX",
+          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
@@ -625,7 +625,7 @@
           "matchWins": 5,
           "matchLosses": 4,
           "gameWins": 11,
-          "gameLosses": 8
+          "gameLosses": 10
         },
         {
           "rank": 5,
@@ -634,7 +634,7 @@
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
           "matchWins": 4,
           "matchLosses": 4,
-          "gameWins": 8,
+          "gameWins": 10,
           "gameLosses": 10
         },
         {
@@ -763,7 +763,7 @@
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins2": 0
+          "wins2": 2
         }
       ],
       "upcoming": [
