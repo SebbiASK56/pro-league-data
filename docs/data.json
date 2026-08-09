@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T16:03:04.374Z",
+  "generatedAt": "2026-08-09T16:51:17.573Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -18,9 +18,9 @@
           "name": "G2 Esports",
           "code": "G2",
           "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "matchWins": 3,
+          "matchWins": 4,
           "matchLosses": 1,
-          "gameWins": 7,
+          "gameWins": 9,
           "gameLosses": 3
         },
         {
@@ -79,9 +79,9 @@
           "code": "TH",
           "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
           "matchWins": 1,
-          "matchLosses": 2,
+          "matchLosses": 3,
           "gameWins": 2,
-          "gameLosses": 5
+          "gameLosses": 7
         },
         {
           "rank": 9,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-02T15:00:00Z",
-          "blockName": "Week 2",
-          "team1": "G2 Esports",
-          "code1": "G2",
-          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "wins1": 2,
-          "team2": "SK Gaming",
-          "code2": "SK",
-          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-02T17:15:00Z",
           "blockName": "Week 2",
@@ -200,20 +188,21 @@
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-09T15:00:00Z",
+          "blockName": "Week 3",
+          "team1": "G2 Esports",
+          "code1": "G2",
+          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "wins1": 2,
+          "team2": "Team Heretics",
+          "code2": "TH",
+          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-09T17:15:00Z",
-          "blockName": "Week 3",
-          "team1": "Karmine Corp",
-          "code1": "KC",
-          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-10T15:00:00Z",
           "blockName": "Week 3",
@@ -289,6 +278,17 @@
           "team2": "Movistar KOI",
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-16T17:15:00Z",
+          "blockName": "Week 4",
+          "team1": "Fnatic",
+          "code1": "FNC",
+          "image1": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
+          "team2": "G2 Esports",
+          "code2": "G2",
+          "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
           "bestOf": 3
         }
       ]
