@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T08:10:15.850Z",
+  "generatedAt": "2026-08-09T09:06:20.530Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -739,7 +739,7 @@
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "wins2": 1
+          "wins2": 2
         },
         {
           "startTime": "2026-08-09T09:00:00Z",
