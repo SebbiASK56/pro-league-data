@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T14:46:25.271Z",
+  "generatedAt": "2026-08-10T15:44:35.117Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-10T15:00:00Z",
-          "blockName": "Week 3",
-          "team1": "Team Vitality",
-          "code1": "VIT",
-          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "team2": "SK Gaming",
-          "code2": "SK",
-          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-10T17:15:00Z",
           "blockName": "Week 3",
           "team1": "Natus Vincere",
@@ -289,6 +278,17 @@
           "team2": "G2 Esports",
           "code2": "G2",
           "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-17T15:00:00Z",
+          "blockName": "Week 4",
+          "team1": "Team Heretics",
+          "code1": "TH",
+          "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "team2": "Natus Vincere",
+          "code2": "NAVI",
+          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
           "bestOf": 3
         }
       ]
