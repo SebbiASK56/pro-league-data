@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T17:36:19.217Z",
+  "generatedAt": "2026-08-10T18:31:49.339Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -18,9 +18,9 @@
           "name": "G2 Esports",
           "code": "G2",
           "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "matchWins": 4,
+          "matchWins": 5,
           "matchLosses": 1,
-          "gameWins": 9,
+          "gameWins": 11,
           "gameLosses": 3
         },
         {
@@ -35,22 +35,22 @@
         },
         {
           "rank": 4,
-          "name": "Natus Vincere",
-          "code": "NAVI",
-          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "matchWins": 2,
-          "matchLosses": 1,
-          "gameWins": 4,
-          "gameLosses": 3
-        },
-        {
-          "rank": 5,
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
           "matchWins": 3,
           "matchLosses": 2,
           "gameWins": 6,
+          "gameLosses": 5
+        },
+        {
+          "rank": 5,
+          "name": "Natus Vincere",
+          "code": "NAVI",
+          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "matchWins": 2,
+          "matchLosses": 2,
+          "gameWins": 4,
           "gameLosses": 5
         },
         {
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-03T17:15:00Z",
-          "blockName": "Week 2",
-          "team1": "Karmine Corp",
-          "code1": "KC",
-          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "wins1": 2,
-          "team2": "Team Heretics",
-          "code2": "TH",
-          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-07T15:00:00Z",
           "blockName": "Week 3",
@@ -200,6 +188,18 @@
           "code2": "VIT",
           "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-10T17:15:00Z",
+          "blockName": "Week 3",
+          "team1": "G2 Esports",
+          "code1": "G2",
+          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "wins1": 2,
+          "team2": "Natus Vincere",
+          "code2": "NAVI",
+          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
