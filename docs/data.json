@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:46:50.251Z",
+  "generatedAt": "2026-08-12T15:44:33.966Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -589,16 +589,6 @@
       "standings": [
         {
           "rank": 1,
-          "name": "BILIBILI GAMING",
-          "code": "BLG",
-          "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "matchWins": 8,
-          "matchLosses": 1,
-          "gameWins": 15,
-          "gameLosses": 7
-        },
-        {
-          "rank": 2,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
@@ -608,7 +598,7 @@
           "gameLosses": 4
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
@@ -616,6 +606,16 @@
           "matchLosses": 2,
           "gameWins": 15,
           "gameLosses": 6
+        },
+        {
+          "rank": 2,
+          "name": "BILIBILI GAMING",
+          "code": "BLG",
+          "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "matchWins": 7,
+          "matchLosses": 2,
+          "gameWins": 15,
+          "gameLosses": 8
         },
         {
           "rank": 4,
@@ -628,13 +628,13 @@
           "gameLosses": 10
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 4,
-          "matchLosses": 5,
-          "gameWins": 11,
+          "matchWins": 5,
+          "matchLosses": 4,
+          "gameWins": 12,
           "gameLosses": 11
         },
         {
@@ -759,7 +759,7 @@
           "team1": "Beijing JDG Esports",
           "code1": "JDG",
           "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
