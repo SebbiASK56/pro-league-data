@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T08:56:00.706Z",
+  "generatedAt": "2026-08-12T10:13:18.052Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -599,22 +599,22 @@
         },
         {
           "rank": 2,
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 7,
-          "matchLosses": 2,
-          "gameWins": 13,
-          "gameLosses": 5
-        },
-        {
-          "rank": 2,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "matchWins": 7,
           "matchLosses": 2,
           "gameWins": 14,
+          "gameLosses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Anyone's Legend",
+          "code": "AL",
+          "image": "http://static.lolesports.com/teams/1641199582689_.png",
+          "matchWins": 6,
+          "matchLosses": 3,
+          "gameWins": 13,
           "gameLosses": 6
         },
         {
@@ -662,9 +662,9 @@
           "name": "EDWARD GAMING",
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "matchWins": 0,
-          "matchLosses": 9,
-          "gameWins": 1,
+          "matchWins": 1,
+          "matchLosses": 8,
+          "gameWins": 2,
           "gameLosses": 16
         }
       ],
@@ -744,14 +744,14 @@
         {
           "startTime": "2026-08-12T09:00:00Z",
           "blockName": "Week 4",
-          "team1": "EDWARD GAMING",
-          "code1": "EDG",
-          "image1": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
+          "team1": "Anyone's Legend",
+          "code1": "AL",
+          "image1": "http://static.lolesports.com/teams/1641199582689_.png",
           "wins1": 0,
-          "team2": "Anyone's Legend",
-          "code2": "AL",
-          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins2": 0
+          "team2": "EDWARD GAMING",
+          "code2": "EDG",
+          "image2": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
+          "wins2": 1
         },
         {
           "startTime": "2026-08-12T11:00:00Z",
