@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T10:13:18.052Z",
+  "generatedAt": "2026-08-12T11:12:53.760Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -381,34 +381,22 @@
           "code": "NS",
           "image": "http://static.lolesports.com/teams/NSFullonDark.png",
           "matchWins": 7,
-          "matchLosses": 15,
-          "gameWins": 18,
-          "gameLosses": 33
+          "matchLosses": 16,
+          "gameWins": 19,
+          "gameLosses": 35
         },
         {
           "rank": 10,
           "name": "DN SOOPers",
           "code": "DNS",
           "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "matchWins": 3,
+          "matchWins": 4,
           "matchLosses": 19,
-          "gameWins": 7,
-          "gameLosses": 39
+          "gameWins": 9,
+          "gameLosses": 40
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-06T08:00:00Z",
-          "blockName": "Week 11",
-          "team1": "KIWOOM DRX",
-          "code1": "KRX",
-          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "wins1": 2,
-          "team2": "DN SOOPers",
-          "code2": "DNS",
-          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-06T10:00:00Z",
           "blockName": "Week 11",
@@ -492,20 +480,21 @@
           "code2": "KRX",
           "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-12T08:00:00Z",
+          "blockName": "Week 12",
+          "team1": "NONGSHIM RED FORCE",
+          "code1": "NS",
+          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "wins1": 1,
+          "team2": "DN SOOPers",
+          "code2": "DNS",
+          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+          "wins2": 2
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-12T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "kt Rolster",
-          "code1": "KT",
-          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "team2": "Dplus KIA",
-          "code2": "DK",
-          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-13T08:00:00Z",
           "blockName": "Week 12",
@@ -582,6 +571,17 @@
           "code2": "GEN",
           "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-16T10:00:00Z",
+          "blockName": "Week 12",
+          "team1": "KIWOOM DRX",
+          "code1": "KRX",
+          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "team2": "HANJIN BRION",
+          "code2": "BRO",
+          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "bestOf": 3
         }
       ]
     },
@@ -614,7 +614,7 @@
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
           "matchWins": 6,
           "matchLosses": 3,
-          "gameWins": 13,
+          "gameWins": 14,
           "gameLosses": 6
         },
         {
@@ -665,7 +665,7 @@
           "matchWins": 1,
           "matchLosses": 8,
           "gameWins": 2,
-          "gameLosses": 16
+          "gameLosses": 17
         }
       ],
       "results": [
@@ -747,7 +747,7 @@
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "EDWARD GAMING",
           "code2": "EDG",
           "image2": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
