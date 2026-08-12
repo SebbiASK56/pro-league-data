@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:48:44.609Z",
+  "generatedAt": "2026-08-12T08:56:00.706Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-12T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "DN SOOPers",
-          "code1": "DNS",
-          "image1": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "team2": "NONGSHIM RED FORCE",
-          "code2": "NS",
-          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-12T10:00:00Z",
           "blockName": "Week 12",
           "team1": "kt Rolster",
@@ -582,6 +571,17 @@
           "code2": "DNS",
           "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-16T08:00:00Z",
+          "blockName": "Week 12",
+          "team1": "T1",
+          "code1": "T1",
+          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "team2": "Gen.G Esports",
+          "code2": "GEN",
+          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "bestOf": 3
         }
       ]
     },
@@ -598,24 +598,24 @@
           "gameLosses": 4
         },
         {
-          "rank": 1,
+          "rank": 2,
+          "name": "Anyone's Legend",
+          "code": "AL",
+          "image": "http://static.lolesports.com/teams/1641199582689_.png",
+          "matchWins": 7,
+          "matchLosses": 2,
+          "gameWins": 13,
+          "gameLosses": 5
+        },
+        {
+          "rank": 2,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "matchWins": 7,
-          "matchLosses": 1,
+          "matchLosses": 2,
           "gameWins": 14,
           "gameLosses": 6
-        },
-        {
-          "rank": 3,
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 6,
-          "matchLosses": 2,
-          "gameWins": 13,
-          "gameLosses": 5
         },
         {
           "rank": 4,
@@ -628,11 +628,11 @@
           "gameLosses": 10
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 4,
+          "matchWins": 5,
           "matchLosses": 4,
           "gameWins": 10,
           "gameLosses": 10
@@ -663,36 +663,12 @@
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
           "matchWins": 0,
-          "matchLosses": 8,
+          "matchLosses": 9,
           "gameWins": 1,
           "gameLosses": 16
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-07T09:00:00Z",
-          "blockName": "Week 3",
-          "team1": "Xi'an Team WE",
-          "code1": "WE",
-          "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "wins1": 1,
-          "team2": "THUNDER TALK GAMING",
-          "code2": "TT",
-          "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "wins2": 2
-        },
-        {
-          "startTime": "2026-08-07T11:00:00Z",
-          "blockName": "Week 3",
-          "team1": "TOP ESPORTS",
-          "code1": "TES",
-          "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins1": 2,
-          "team2": "BILIBILI GAMING",
-          "code2": "BLG",
-          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-08T07:00:00Z",
           "blockName": "Week 3",
@@ -764,19 +740,18 @@
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
           "wins2": 2
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-08-12T09:00:00Z",
           "blockName": "Week 4",
           "team1": "EDWARD GAMING",
           "code1": "EDG",
           "image1": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
+          "wins1": 0,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "bestOf": 3
+          "wins2": 0
         },
         {
           "startTime": "2026-08-12T11:00:00Z",
@@ -784,11 +759,14 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "wins1": 0,
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "bestOf": 3
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-08-13T07:00:00Z",
           "blockName": "Week 4",
@@ -853,6 +831,28 @@
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-15T07:00:00Z",
+          "blockName": "Week 4",
+          "team1": "Shenzhen NINJAS IN PYJAMAS",
+          "code1": "NIP",
+          "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
+          "team2": "Suzhou LNG Esports",
+          "code2": "LNG",
+          "image2": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-15T09:00:00Z",
+          "blockName": "Week 4",
+          "team1": "Anyone's Legend",
+          "code1": "AL",
+          "image1": "http://static.lolesports.com/teams/1641199582689_.png",
+          "team2": "THUNDER TALK GAMING",
+          "code2": "TT",
+          "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
           "bestOf": 3
         }
       ]
