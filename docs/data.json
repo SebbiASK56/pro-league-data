@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T04:41:44.024Z",
+  "generatedAt": "2026-08-13T06:07:51.119Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -592,7 +592,7 @@
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 7,
+          "matchWins": 8,
           "matchLosses": 1,
           "gameWins": 14,
           "gameLosses": 4
@@ -608,12 +608,12 @@
           "gameLosses": 6
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "matchWins": 7,
-          "matchLosses": 2,
+          "matchLosses": 3,
           "gameWins": 15,
           "gameLosses": 8
         },
@@ -642,7 +642,7 @@
           "name": "THUNDER TALK GAMING",
           "code": "TT",
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "matchWins": 3,
+          "matchWins": 4,
           "matchLosses": 6,
           "gameWins": 10,
           "gameLosses": 14
@@ -653,7 +653,7 @@
           "code": "LGD",
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "matchWins": 1,
-          "matchLosses": 7,
+          "matchLosses": 8,
           "gameWins": 6,
           "gameLosses": 14
         },
@@ -669,42 +669,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-08T07:00:00Z",
-          "blockName": "Week 3",
-          "team1": "WeiboGaming",
-          "code1": "WBG",
-          "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
-          "wins1": 2,
-          "team2": "Suzhou LNG Esports",
-          "code2": "LNG",
-          "image2": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
-          "wins2": 0
-        },
-        {
-          "startTime": "2026-08-08T09:00:00Z",
-          "blockName": "Week 3",
-          "team1": "LGD GAMING",
-          "code1": "LGD",
-          "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins1": 0,
-          "team2": "Anyone's Legend",
-          "code2": "AL",
-          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins2": 2
-        },
-        {
-          "startTime": "2026-08-08T11:00:00Z",
-          "blockName": "Week 3",
-          "team1": "EDWARD GAMING",
-          "code1": "EDG",
-          "image1": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "wins1": 0,
-          "team2": "BILIBILI GAMING",
-          "code2": "BLG",
-          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-09T07:00:00Z",
           "blockName": "Week 3",
@@ -764,19 +728,18 @@
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "wins2": 1
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-08-13T07:00:00Z",
           "blockName": "Week 4",
           "team1": "WeiboGaming",
           "code1": "WBG",
           "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
+          "wins1": 0,
           "team2": "Shenzhen NINJAS IN PYJAMAS",
           "code2": "NIP",
           "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "bestOf": 3
+          "wins2": 0
         },
         {
           "startTime": "2026-08-13T09:00:00Z",
@@ -784,10 +747,11 @@
           "team1": "LGD GAMING",
           "code1": "LGD",
           "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+          "wins1": 0,
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "bestOf": 3
+          "wins2": 0
         },
         {
           "startTime": "2026-08-13T11:00:00Z",
@@ -795,11 +759,14 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "wins1": 0,
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "bestOf": 3
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-08-14T07:00:00Z",
           "blockName": "Week 4",
@@ -853,6 +820,39 @@
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-15T11:00:00Z",
+          "blockName": "Week 4",
+          "team1": "BILIBILI GAMING",
+          "code1": "BLG",
+          "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "team2": "Xi'an Team WE",
+          "code2": "WE",
+          "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-16T07:00:00Z",
+          "blockName": "Week 4",
+          "team1": "Beijing JDG Esports",
+          "code1": "JDG",
+          "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "team2": "LGD GAMING",
+          "code2": "LGD",
+          "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-16T09:00:00Z",
+          "blockName": "Week 4",
+          "team1": "WeiboGaming",
+          "code1": "WBG",
+          "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
+          "team2": "Invictus Gaming",
+          "code2": "IG",
+          "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
           "bestOf": 3
         }
       ]
