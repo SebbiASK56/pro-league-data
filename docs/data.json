@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T06:07:51.119Z",
+  "generatedAt": "2026-08-13T07:52:31.515Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-13T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "KIWOOM DRX",
-          "code1": "KRX",
-          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "team2": "BNK FEARX",
-          "code2": "BFX",
-          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-13T10:00:00Z",
           "blockName": "Week 12",
           "team1": "Gen.G Esports",
@@ -581,6 +570,17 @@
           "team2": "HANJIN BRION",
           "code2": "BRO",
           "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-19T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Gen.G Esports",
+          "code1": "GEN",
+          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "team2": "kt Rolster",
+          "code2": "KT",
+          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "bestOf": 3
         }
       ]
