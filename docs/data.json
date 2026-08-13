@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:26:04.297Z",
+  "generatedAt": "2026-08-13T12:11:59.946Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -589,22 +589,22 @@
       "standings": [
         {
           "rank": 1,
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 7,
-          "matchLosses": 2,
-          "gameWins": 14,
-          "gameLosses": 5
-        },
-        {
-          "rank": 1,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
           "matchWins": 7,
           "matchLosses": 2,
           "gameWins": 15,
+          "gameLosses": 6
+        },
+        {
+          "rank": 1,
+          "name": "TOP ESPORTS",
+          "code": "TES",
+          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "matchWins": 7,
+          "matchLosses": 2,
+          "gameWins": 14,
           "gameLosses": 6
         },
         {
@@ -654,7 +654,7 @@
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "matchWins": 2,
           "matchLosses": 7,
-          "gameWins": 7,
+          "gameWins": 8,
           "gameLosses": 14
         },
         {
@@ -747,7 +747,7 @@
           "team1": "LGD GAMING",
           "code1": "LGD",
           "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
