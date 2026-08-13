@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:53:04.743Z",
+  "generatedAt": "2026-08-13T15:01:13.102Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -594,7 +594,7 @@
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "matchWins": 8,
           "matchLosses": 2,
-          "gameWins": 16,
+          "gameWins": 17,
           "gameLosses": 8
         },
         {
@@ -645,7 +645,7 @@
           "matchWins": 3,
           "matchLosses": 7,
           "gameWins": 10,
-          "gameLosses": 15
+          "gameLosses": 16
         },
         {
           "rank": 7,
@@ -759,7 +759,7 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
