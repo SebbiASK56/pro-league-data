@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:11:59.946Z",
+  "generatedAt": "2026-08-13T13:53:04.743Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -297,6 +297,16 @@
       "standings": [
         {
           "rank": 1,
+          "name": "Gen.G Esports",
+          "code": "GEN",
+          "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "matchWins": 17,
+          "matchLosses": 6,
+          "gameWins": 36,
+          "gameLosses": 16
+        },
+        {
+          "rank": 2,
           "name": "T1",
           "code": "T1",
           "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
@@ -306,24 +316,14 @@
           "gameLosses": 14
         },
         {
-          "rank": 2,
-          "name": "Gen.G Esports",
-          "code": "GEN",
-          "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "matchWins": 16,
-          "matchLosses": 6,
-          "gameWins": 34,
-          "gameLosses": 16
-        },
-        {
           "rank": 3,
           "name": "Hanwha Life Esports",
           "code": "HLE",
           "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "matchWins": 16,
-          "matchLosses": 6,
+          "matchLosses": 7,
           "gameWins": 37,
-          "gameLosses": 18
+          "gameLosses": 20
         },
         {
           "rank": 4,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-07T10:00:00Z",
-          "blockName": "Week 11",
-          "team1": "HANJIN BRION",
-          "code1": "BRO",
-          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins1": 2,
-          "team2": "BNK FEARX",
-          "code2": "BFX",
-          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-08T08:00:00Z",
           "blockName": "Week 11",
@@ -491,6 +479,18 @@
           "team2": "BNK FEARX",
           "code2": "BFX",
           "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins2": 2
+        },
+        {
+          "startTime": "2026-08-13T10:00:00Z",
+          "blockName": "Week 12",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "wins1": 0,
+          "team2": "Gen.G Esports",
+          "code2": "GEN",
+          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "wins2": 2
         }
       ],
@@ -589,6 +589,16 @@
       "standings": [
         {
           "rank": 1,
+          "name": "BILIBILI GAMING",
+          "code": "BLG",
+          "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "matchWins": 8,
+          "matchLosses": 2,
+          "gameWins": 16,
+          "gameLosses": 8
+        },
+        {
+          "rank": 2,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
@@ -598,7 +608,7 @@
           "gameLosses": 6
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
@@ -606,16 +616,6 @@
           "matchLosses": 2,
           "gameWins": 14,
           "gameLosses": 6
-        },
-        {
-          "rank": 3,
-          "name": "BILIBILI GAMING",
-          "code": "BLG",
-          "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "matchWins": 7,
-          "matchLosses": 3,
-          "gameWins": 15,
-          "gameLosses": 8
         },
         {
           "rank": 4,
@@ -642,10 +642,10 @@
           "name": "THUNDER TALK GAMING",
           "code": "TT",
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "matchWins": 4,
-          "matchLosses": 6,
+          "matchWins": 3,
+          "matchLosses": 7,
           "gameWins": 10,
-          "gameLosses": 14
+          "gameLosses": 15
         },
         {
           "rank": 7,
@@ -759,7 +759,7 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
