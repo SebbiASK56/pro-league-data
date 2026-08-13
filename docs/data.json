@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:16:36.018Z",
+  "generatedAt": "2026-08-13T10:32:31.064Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -739,7 +739,7 @@
           "team2": "Shenzhen NINJAS IN PYJAMAS",
           "code2": "NIP",
           "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins2": 1
+          "wins2": 2
         },
         {
           "startTime": "2026-08-13T09:00:00Z",
