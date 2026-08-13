@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:52:31.515Z",
+  "generatedAt": "2026-08-13T09:16:36.018Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -735,11 +735,11 @@
           "team1": "WeiboGaming",
           "code1": "WBG",
           "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Shenzhen NINJAS IN PYJAMAS",
           "code2": "NIP",
           "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-13T09:00:00Z",
