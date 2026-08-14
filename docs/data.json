@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:31:12.766Z",
+  "generatedAt": "2026-08-14T19:35:09.889Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -25,20 +25,20 @@
         },
         {
           "rank": 3,
+          "name": "Team Vitality",
+          "code": "VIT",
+          "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "matchWins": 4,
+          "matchLosses": 2,
+          "gameWins": 8,
+          "gameLosses": 6
+        },
+        {
+          "rank": 4,
           "name": "GIANTX",
           "code": "GX",
           "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "matchWins": 2,
-          "matchLosses": 1,
-          "gameWins": 5,
-          "gameLosses": 3
-        },
-        {
-          "rank": 4,
-          "name": "Team Vitality",
-          "code": "VIT",
-          "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "matchWins": 3,
           "matchLosses": 2,
           "gameWins": 6,
           "gameLosses": 5
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-07T17:15:00Z",
-          "blockName": "Week 3",
-          "team1": "Team Heretics",
-          "code1": "TH",
-          "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "wins1": 2,
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "wins2": 1
-        },
         {
           "startTime": "2026-08-08T15:00:00Z",
           "blockName": "Week 3",
@@ -200,6 +188,18 @@
           "code2": "SHFT",
           "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-14T17:15:00Z",
+          "blockName": "Week 4",
+          "team1": "GIANTX",
+          "code1": "GX",
+          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "wins1": 1,
+          "team2": "Team Vitality",
+          "code2": "VIT",
+          "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
