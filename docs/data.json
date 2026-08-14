@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:42:21.588Z",
+  "generatedAt": "2026-08-14T15:37:46.707Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-14T15:00:00Z",
-          "blockName": "Week 4",
-          "team1": "Shifters",
-          "code1": "SHFT",
-          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "team2": "SK Gaming",
-          "code2": "SK",
-          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-14T17:15:00Z",
           "blockName": "Week 4",
           "team1": "Team Vitality",
@@ -289,6 +278,17 @@
           "team2": "Karmine Corp",
           "code2": "KC",
           "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-21T15:00:00Z",
+          "blockName": "Week 5",
+          "team1": "Team Heretics",
+          "code1": "TH",
+          "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "team2": "SK Gaming",
+          "code2": "SK",
+          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
           "bestOf": 3
         }
       ]
