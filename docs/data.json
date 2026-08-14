@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T12:09:48.905Z",
+  "generatedAt": "2026-08-14T13:44:41.926Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -361,28 +361,28 @@
           "code": "BRO",
           "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
           "matchWins": 8,
-          "matchLosses": 14,
+          "matchLosses": 15,
           "gameWins": 22,
-          "gameLosses": 29
+          "gameLosses": 31
         },
         {
           "rank": 8,
-          "name": "KIWOOM DRX",
-          "code": "KRX",
-          "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "matchWins": 7,
+          "name": "NONGSHIM RED FORCE",
+          "code": "NS",
+          "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "matchWins": 8,
           "matchLosses": 16,
           "gameWins": 21,
           "gameLosses": 35
         },
         {
           "rank": 9,
-          "name": "NONGSHIM RED FORCE",
-          "code": "NS",
-          "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "name": "KIWOOM DRX",
+          "code": "KRX",
+          "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "matchWins": 7,
           "matchLosses": 16,
-          "gameWins": 19,
+          "gameWins": 21,
           "gameLosses": 35
         },
         {
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-08T10:00:00Z",
-          "blockName": "Week 11",
-          "team1": "DN SOOPers",
-          "code1": "DNS",
-          "image1": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "wins1": 2,
-          "team2": "NONGSHIM RED FORCE",
-          "code2": "NS",
-          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-09T08:00:00Z",
           "blockName": "Week 11",
@@ -492,6 +480,18 @@
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "wins2": 1
+        },
+        {
+          "startTime": "2026-08-14T10:00:00Z",
+          "blockName": "Week 12",
+          "team1": "HANJIN BRION",
+          "code1": "BRO",
+          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "wins1": 0,
+          "team2": "NONGSHIM RED FORCE",
+          "code2": "NS",
+          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
@@ -594,8 +594,8 @@
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
           "matchWins": 8,
           "matchLosses": 2,
-          "gameWins": 15,
-          "gameLosses": 6
+          "gameWins": 16,
+          "gameLosses": 7
         },
         {
           "rank": 1,
@@ -634,8 +634,8 @@
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
           "matchWins": 5,
           "matchLosses": 5,
-          "gameWins": 12,
-          "gameLosses": 11
+          "gameWins": 13,
+          "gameLosses": 12
         },
         {
           "rank": 6,
@@ -759,11 +759,11 @@
           "team1": "Beijing JDG Esports",
           "code1": "JDG",
           "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins2": 0
+          "wins2": 1
         }
       ],
       "upcoming": [
