@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T06:43:40.481Z",
+  "generatedAt": "2026-08-14T08:04:11.891Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-14T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "T1",
-          "code1": "T1",
-          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "team2": "Dplus KIA",
-          "code2": "DK",
-          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-14T10:00:00Z",
           "blockName": "Week 12",
           "team1": "NONGSHIM RED FORCE",
@@ -582,6 +571,17 @@
           "code2": "DNS",
           "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-20T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Dplus KIA",
+          "code1": "DK",
+          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "team2": "Hanwha Life Esports",
+          "code2": "HLE",
+          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "bestOf": 3
         }
       ]
     },
@@ -639,6 +639,16 @@
         },
         {
           "rank": 6,
+          "name": "LGD GAMING",
+          "code": "LGD",
+          "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+          "matchWins": 3,
+          "matchLosses": 7,
+          "gameWins": 9,
+          "gameLosses": 14
+        },
+        {
+          "rank": 6,
           "name": "THUNDER TALK GAMING",
           "code": "TT",
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
@@ -648,16 +658,6 @@
           "gameLosses": 16
         },
         {
-          "rank": 6,
-          "name": "LGD GAMING",
-          "code": "LGD",
-          "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "matchWins": 3,
-          "matchLosses": 7,
-          "gameWins": 8,
-          "gameLosses": 14
-        },
-        {
           "rank": 8,
           "name": "EDWARD GAMING",
           "code": "EDG",
@@ -665,7 +665,7 @@
           "matchWins": 0,
           "matchLosses": 10,
           "gameWins": 2,
-          "gameLosses": 18
+          "gameLosses": 19
         }
       ],
       "results": [
@@ -739,7 +739,7 @@
           "team2": "LGD GAMING",
           "code2": "LGD",
           "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-14T09:00:00Z",
