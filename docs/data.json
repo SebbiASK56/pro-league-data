@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:29:38.879Z",
+  "generatedAt": "2026-08-14T11:22:49.356Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -311,9 +311,9 @@
           "code": "T1",
           "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "matchWins": 16,
-          "matchLosses": 6,
-          "gameWins": 35,
-          "gameLosses": 14
+          "matchLosses": 7,
+          "gameWins": 36,
+          "gameLosses": 16
         },
         {
           "rank": 3,
@@ -330,10 +330,10 @@
           "name": "Dplus KIA",
           "code": "DK",
           "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "matchWins": 15,
+          "matchWins": 16,
           "matchLosses": 8,
-          "gameWins": 32,
-          "gameLosses": 22
+          "gameWins": 34,
+          "gameLosses": 23
         },
         {
           "rank": 5,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-08T08:00:00Z",
-          "blockName": "Week 11",
-          "team1": "T1",
-          "code1": "T1",
-          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "wins1": 1,
-          "team2": "Hanwha Life Esports",
-          "code2": "HLE",
-          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-08T10:00:00Z",
           "blockName": "Week 11",
@@ -492,20 +480,21 @@
           "code2": "GEN",
           "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-14T08:00:00Z",
+          "blockName": "Week 12",
+          "team1": "Dplus KIA",
+          "code1": "DK",
+          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "wins1": 2,
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-14T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "NONGSHIM RED FORCE",
-          "code1": "NS",
-          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-15T08:00:00Z",
           "blockName": "Week 12",
@@ -582,6 +571,17 @@
           "code2": "HLE",
           "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-20T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "NONGSHIM RED FORCE",
+          "code1": "NS",
+          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "team2": "KIWOOM DRX",
+          "code2": "KRX",
+          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "bestOf": 3
         }
       ]
     },
@@ -615,7 +615,7 @@
           "matchWins": 7,
           "matchLosses": 3,
           "gameWins": 14,
-          "gameLosses": 7
+          "gameLosses": 8
         },
         {
           "rank": 4,
@@ -624,7 +624,7 @@
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
           "matchWins": 6,
           "matchLosses": 4,
-          "gameWins": 12,
+          "gameWins": 13,
           "gameLosses": 10
         },
         {
@@ -747,7 +747,7 @@
           "team1": "Xi'an Team WE",
           "code1": "WE",
           "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
