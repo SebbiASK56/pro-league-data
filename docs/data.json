@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:18:31.280Z",
+  "generatedAt": "2026-08-14T10:29:38.879Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -599,16 +599,6 @@
         },
         {
           "rank": 1,
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 8,
-          "matchLosses": 2,
-          "gameWins": 14,
-          "gameLosses": 6
-        },
-        {
-          "rank": 1,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
@@ -618,17 +608,27 @@
           "gameLosses": 8
         },
         {
+          "rank": 3,
+          "name": "TOP ESPORTS",
+          "code": "TES",
+          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "matchWins": 7,
+          "matchLosses": 3,
+          "gameWins": 14,
+          "gameLosses": 7
+        },
+        {
           "rank": 4,
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "matchWins": 5,
-          "matchLosses": 5,
-          "gameWins": 11,
+          "matchWins": 6,
+          "matchLosses": 4,
+          "gameWins": 12,
           "gameLosses": 10
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
@@ -747,7 +747,7 @@
           "team1": "Xi'an Team WE",
           "code1": "WE",
           "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
