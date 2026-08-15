@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T07:41:37.141Z",
+  "generatedAt": "2026-08-15T08:10:12.595Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-15T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "Hanwha Life Esports",
-          "code1": "HLE",
-          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "team2": "kt Rolster",
-          "code2": "KT",
-          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-15T10:00:00Z",
           "blockName": "Week 12",
           "team1": "BNK FEARX",
@@ -581,6 +570,17 @@
           "team2": "KIWOOM DRX",
           "code2": "KRX",
           "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-21T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "HANJIN BRION",
+          "code1": "BRO",
+          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "team2": "BNK FEARX",
+          "code2": "BFX",
+          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "bestOf": 3
         }
       ]
@@ -735,7 +735,7 @@
           "team1": "Shenzhen NINJAS IN PYJAMAS",
           "code1": "NIP",
           "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Suzhou LNG Esports",
           "code2": "LNG",
           "image2": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
