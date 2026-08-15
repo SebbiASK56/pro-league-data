@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:27:46.897Z",
+  "generatedAt": "2026-08-15T11:48:54.194Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -594,7 +594,7 @@
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
           "matchWins": 8,
           "matchLosses": 3,
-          "gameWins": 17,
+          "gameWins": 18,
           "gameLosses": 8
         },
         {
@@ -645,7 +645,7 @@
           "matchWins": 4,
           "matchLosses": 7,
           "gameWins": 11,
-          "gameLosses": 16
+          "gameLosses": 17
         },
         {
           "rank": 7,
@@ -747,7 +747,7 @@
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
