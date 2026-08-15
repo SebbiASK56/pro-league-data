@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:40:50.754Z",
+  "generatedAt": "2026-08-15T14:02:52.813Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -598,13 +598,13 @@
           "gameLosses": 8
         },
         {
-          "rank": 2,
+          "rank": 1,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "matchWins": 8,
-          "matchLosses": 3,
-          "gameWins": 17,
+          "matchWins": 9,
+          "matchLosses": 2,
+          "gameWins": 18,
           "gameLosses": 8
         },
         {
@@ -622,10 +622,10 @@
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "matchWins": 7,
-          "matchLosses": 4,
+          "matchWins": 6,
+          "matchLosses": 5,
           "gameWins": 13,
-          "gameLosses": 10
+          "gameLosses": 11
         },
         {
           "rank": 5,
@@ -759,7 +759,7 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
