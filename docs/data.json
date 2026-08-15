@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:10:56.953Z",
+  "generatedAt": "2026-08-15T13:02:58.137Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -351,9 +351,9 @@
           "code": "BFX",
           "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "matchWins": 9,
-          "matchLosses": 14,
+          "matchLosses": 15,
           "gameWins": 21,
-          "gameLosses": 30
+          "gameLosses": 32
         },
         {
           "rank": 7,
@@ -390,25 +390,13 @@
           "name": "DN SOOPers",
           "code": "DNS",
           "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "matchWins": 4,
+          "matchWins": 5,
           "matchLosses": 19,
-          "gameWins": 9,
+          "gameWins": 11,
           "gameLosses": 40
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-09T10:00:00Z",
-          "blockName": "Week 11",
-          "team1": "BNK FEARX",
-          "code1": "BFX",
-          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "wins1": 2,
-          "team2": "KIWOOM DRX",
-          "code2": "KRX",
-          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-12T08:00:00Z",
           "blockName": "Week 12",
@@ -491,6 +479,18 @@
           "team2": "Hanwha Life Esports",
           "code2": "HLE",
           "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "wins2": 2
+        },
+        {
+          "startTime": "2026-08-15T10:00:00Z",
+          "blockName": "Week 12",
+          "team1": "BNK FEARX",
+          "code1": "BFX",
+          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins1": 0,
+          "team2": "DN SOOPers",
+          "code2": "DNS",
+          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
           "wins2": 2
         }
       ],
@@ -592,13 +592,13 @@
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 8,
-          "matchLosses": 3,
-          "gameWins": 18,
+          "matchWins": 9,
+          "matchLosses": 2,
+          "gameWins": 19,
           "gameLosses": 8
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
@@ -639,16 +639,6 @@
         },
         {
           "rank": 6,
-          "name": "THUNDER TALK GAMING",
-          "code": "TT",
-          "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "matchWins": 4,
-          "matchLosses": 7,
-          "gameWins": 11,
-          "gameLosses": 17
-        },
-        {
-          "rank": 7,
           "name": "LGD GAMING",
           "code": "LGD",
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
@@ -656,6 +646,16 @@
           "matchLosses": 7,
           "gameWins": 10,
           "gameLosses": 14
+        },
+        {
+          "rank": 7,
+          "name": "THUNDER TALK GAMING",
+          "code": "TT",
+          "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
+          "matchWins": 3,
+          "matchLosses": 8,
+          "gameWins": 11,
+          "gameLosses": 18
         },
         {
           "rank": 8,
@@ -747,7 +747,7 @@
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
