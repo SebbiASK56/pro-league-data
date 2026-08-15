@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T10:36:21.202Z",
+  "generatedAt": "2026-08-15T10:57:14.119Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -307,6 +307,16 @@
         },
         {
           "rank": 2,
+          "name": "Hanwha Life Esports",
+          "code": "HLE",
+          "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "matchWins": 17,
+          "matchLosses": 7,
+          "gameWins": 39,
+          "gameLosses": 21
+        },
+        {
+          "rank": 3,
           "name": "T1",
           "code": "T1",
           "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
@@ -314,16 +324,6 @@
           "matchLosses": 7,
           "gameWins": 36,
           "gameLosses": 16
-        },
-        {
-          "rank": 3,
-          "name": "Hanwha Life Esports",
-          "code": "HLE",
-          "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "matchWins": 16,
-          "matchLosses": 7,
-          "gameWins": 37,
-          "gameLosses": 20
         },
         {
           "rank": 4,
@@ -341,9 +341,9 @@
           "code": "KT",
           "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "matchWins": 15,
-          "matchLosses": 8,
-          "gameWins": 31,
-          "gameLosses": 22
+          "matchLosses": 9,
+          "gameWins": 32,
+          "gameLosses": 24
         },
         {
           "rank": 6,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-09T08:00:00Z",
-          "blockName": "Week 11",
-          "team1": "kt Rolster",
-          "code1": "KT",
-          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "wins1": 1,
-          "team2": "Dplus KIA",
-          "code2": "DK",
-          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-09T10:00:00Z",
           "blockName": "Week 11",
@@ -492,20 +480,21 @@
           "code2": "NS",
           "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-15T08:00:00Z",
+          "blockName": "Week 12",
+          "team1": "kt Rolster",
+          "code1": "KT",
+          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
+          "wins1": 1,
+          "team2": "Hanwha Life Esports",
+          "code2": "HLE",
+          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-15T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "BNK FEARX",
-          "code1": "BFX",
-          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "team2": "DN SOOPers",
-          "code2": "DNS",
-          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-16T08:00:00Z",
           "blockName": "Week 12",
@@ -582,6 +571,17 @@
           "code2": "BFX",
           "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-21T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "kt Rolster",
+          "code1": "KT",
+          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "bestOf": 3
         }
       ]
     },
@@ -595,7 +595,7 @@
           "matchWins": 8,
           "matchLosses": 3,
           "gameWins": 17,
-          "gameLosses": 7
+          "gameLosses": 8
         },
         {
           "rank": 1,
@@ -644,7 +644,7 @@
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
           "matchWins": 4,
           "matchLosses": 7,
-          "gameWins": 10,
+          "gameWins": 11,
           "gameLosses": 16
         },
         {
@@ -751,7 +751,7 @@
           "team2": "THUNDER TALK GAMING",
           "code2": "TT",
           "image2": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-15T11:00:00Z",
