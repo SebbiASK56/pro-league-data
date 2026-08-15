@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T18:45:39.407Z",
+  "generatedAt": "2026-08-15T19:10:43.602Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -18,9 +18,9 @@
           "name": "G2 Esports",
           "code": "G2",
           "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "matchWins": 5,
+          "matchWins": 6,
           "matchLosses": 1,
-          "gameWins": 11,
+          "gameWins": 13,
           "gameLosses": 3
         },
         {
@@ -99,24 +99,12 @@
           "code": "SHFT",
           "image": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
           "matchWins": 0,
-          "matchLosses": 4,
+          "matchLosses": 5,
           "gameWins": 2,
-          "gameLosses": 8
+          "gameLosses": 10
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-08T17:15:00Z",
-          "blockName": "Week 3",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "wins1": 2,
-          "team2": "Movistar KOI",
-          "code2": "MKOI",
-          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-09T15:00:00Z",
           "blockName": "Week 3",
@@ -199,6 +187,18 @@
           "team2": "SK Gaming",
           "code2": "SK",
           "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "wins2": 0
+        },
+        {
+          "startTime": "2026-08-15T17:15:00Z",
+          "blockName": "Week 4",
+          "team1": "G2 Esports",
+          "code1": "G2",
+          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "wins1": 2,
+          "team2": "Shifters",
+          "code2": "SHFT",
+          "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
           "wins2": 0
         }
       ],
