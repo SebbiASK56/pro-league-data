@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:10:12.595Z",
+  "generatedAt": "2026-08-15T08:46:10.643Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -739,7 +739,7 @@
           "team2": "Suzhou LNG Esports",
           "code2": "LNG",
           "image2": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-15T09:00:00Z",
