@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:36:42.611Z",
+  "generatedAt": "2026-08-15T14:58:15.933Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-15T15:00:00Z",
-          "blockName": "Week 4",
-          "team1": "SK Gaming",
-          "code1": "SK",
-          "image1": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-15T17:15:00Z",
           "blockName": "Week 4",
           "team1": "Shifters",
@@ -289,6 +278,17 @@
           "team2": "Team Vitality",
           "code2": "VIT",
           "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-22T15:00:00Z",
+          "blockName": "Week 5",
+          "team1": "Shifters",
+          "code1": "SHFT",
+          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
+          "team2": "Fnatic",
+          "code2": "FNC",
+          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "bestOf": 3
         }
       ]
@@ -604,7 +604,7 @@
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "matchWins": 9,
           "matchLosses": 2,
-          "gameWins": 18,
+          "gameWins": 19,
           "gameLosses": 8
         },
         {
@@ -625,7 +625,7 @@
           "matchWins": 6,
           "matchLosses": 5,
           "gameWins": 13,
-          "gameLosses": 11
+          "gameLosses": 12
         },
         {
           "rank": 5,
@@ -759,7 +759,7 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
