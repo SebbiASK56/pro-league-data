@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:42:34.810Z",
+  "generatedAt": "2026-08-16T08:11:17.533Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-16T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "T1",
-          "code1": "T1",
-          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "team2": "Gen.G Esports",
-          "code2": "GEN",
-          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-16T10:00:00Z",
           "blockName": "Week 12",
           "team1": "KIWOOM DRX",
@@ -582,6 +571,17 @@
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-22T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Dplus KIA",
+          "code1": "DK",
+          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "team2": "Gen.G Esports",
+          "code2": "GEN",
+          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "bestOf": 3
         }
       ]
     },
@@ -628,13 +628,13 @@
           "gameLosses": 12
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 5,
-          "matchLosses": 6,
-          "gameWins": 13,
+          "matchWins": 6,
+          "matchLosses": 5,
+          "gameWins": 14,
           "gameLosses": 13
         },
         {
@@ -642,13 +642,13 @@
           "name": "LGD GAMING",
           "code": "LGD",
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "matchWins": 4,
-          "matchLosses": 7,
+          "matchWins": 3,
+          "matchLosses": 8,
           "gameWins": 10,
-          "gameLosses": 14
+          "gameLosses": 15
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "THUNDER TALK GAMING",
           "code": "TT",
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
@@ -735,7 +735,7 @@
           "team1": "Beijing JDG Esports",
           "code1": "JDG",
           "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "LGD GAMING",
           "code2": "LGD",
           "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
