@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:42:27.652Z",
+  "generatedAt": "2026-08-16T14:06:12.044Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -614,7 +614,7 @@
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
           "matchWins": 8,
           "matchLosses": 3,
-          "gameWins": 14,
+          "gameWins": 15,
           "gameLosses": 8
         },
         {
@@ -665,7 +665,7 @@
           "matchWins": 0,
           "matchLosses": 11,
           "gameWins": 2,
-          "gameLosses": 20
+          "gameLosses": 21
         }
       ],
       "results": [
@@ -763,7 +763,7 @@
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins2": 0
+          "wins2": 1
         }
       ],
       "upcoming": [
