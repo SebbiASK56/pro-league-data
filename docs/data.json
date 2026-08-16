@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:04:56.563Z",
+  "generatedAt": "2026-08-16T13:42:27.652Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -347,6 +347,16 @@
         },
         {
           "rank": 6,
+          "name": "HANJIN BRION",
+          "code": "BRO",
+          "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "matchWins": 9,
+          "matchLosses": 15,
+          "gameWins": 24,
+          "gameLosses": 32
+        },
+        {
+          "rank": 7,
           "name": "BNK FEARX",
           "code": "BFX",
           "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
@@ -354,16 +364,6 @@
           "matchLosses": 15,
           "gameWins": 21,
           "gameLosses": 32
-        },
-        {
-          "rank": 7,
-          "name": "HANJIN BRION",
-          "code": "BRO",
-          "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "matchWins": 8,
-          "matchLosses": 15,
-          "gameWins": 22,
-          "gameLosses": 31
         },
         {
           "rank": 8,
@@ -381,9 +381,9 @@
           "code": "KRX",
           "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "matchWins": 7,
-          "matchLosses": 16,
-          "gameWins": 21,
-          "gameLosses": 35
+          "matchLosses": 17,
+          "gameWins": 22,
+          "gameLosses": 37
         },
         {
           "rank": 10,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-12T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "wins1": 2,
-          "team2": "kt Rolster",
-          "code2": "KT",
-          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-13T08:00:00Z",
           "blockName": "Week 12",
@@ -492,6 +480,18 @@
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-16T10:00:00Z",
+          "blockName": "Week 12",
+          "team1": "HANJIN BRION",
+          "code1": "BRO",
+          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "wins1": 2,
+          "team2": "KIWOOM DRX",
+          "code2": "KRX",
+          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
