@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T14:57:48.280Z",
+  "generatedAt": "2026-08-16T15:29:58.999Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-16T15:00:00Z",
-          "blockName": "Week 4",
-          "team1": "Natus Vincere",
-          "code1": "NAVI",
-          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "team2": "Movistar KOI",
-          "code2": "MKOI",
-          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-16T17:15:00Z",
           "blockName": "Week 4",
           "team1": "Fnatic",
@@ -289,6 +278,17 @@
           "team2": "Movistar KOI",
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-23T15:00:00Z",
+          "blockName": "Week 5",
+          "team1": "Team Heretics",
+          "code1": "TH",
+          "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "team2": "GIANTX",
+          "code2": "GX",
+          "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "bestOf": 3
         }
       ]
@@ -614,7 +614,7 @@
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
           "matchWins": 8,
           "matchLosses": 3,
-          "gameWins": 15,
+          "gameWins": 16,
           "gameLosses": 8
         },
         {
@@ -665,7 +665,7 @@
           "matchWins": 0,
           "matchLosses": 11,
           "gameWins": 2,
-          "gameLosses": 21
+          "gameLosses": 22
         }
       ],
       "results": [
@@ -763,7 +763,7 @@
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins2": 1
+          "wins2": 2
         }
       ],
       "upcoming": [
