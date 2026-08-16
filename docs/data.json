@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:49:00.781Z",
+  "generatedAt": "2026-08-16T12:12:53.241Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -747,7 +747,7 @@
           "team1": "WeiboGaming",
           "code1": "WBG",
           "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
