@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:56:57.709Z",
+  "generatedAt": "2026-08-16T10:30:56.193Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -300,9 +300,9 @@
           "name": "Gen.G Esports",
           "code": "GEN",
           "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "matchWins": 17,
+          "matchWins": 18,
           "matchLosses": 6,
-          "gameWins": 36,
+          "gameWins": 38,
           "gameLosses": 16
         },
         {
@@ -321,9 +321,9 @@
           "code": "T1",
           "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "matchWins": 16,
-          "matchLosses": 7,
+          "matchLosses": 8,
           "gameWins": 36,
-          "gameLosses": 16
+          "gameLosses": 18
         },
         {
           "rank": 4,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-12T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "NONGSHIM RED FORCE",
-          "code1": "NS",
-          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "wins1": 1,
-          "team2": "DN SOOPers",
-          "code2": "DNS",
-          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-12T10:00:00Z",
           "blockName": "Week 12",
@@ -492,20 +480,21 @@
           "code2": "DNS",
           "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-16T08:00:00Z",
+          "blockName": "Week 12",
+          "team1": "Gen.G Esports",
+          "code1": "GEN",
+          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "wins1": 2,
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-16T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "KIWOOM DRX",
-          "code1": "KRX",
-          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-19T08:00:00Z",
           "blockName": "Week 13",
@@ -581,6 +570,17 @@
           "team2": "Gen.G Esports",
           "code2": "GEN",
           "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-22T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "DN SOOPers",
+          "code1": "DNS",
+          "image1": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+          "team2": "KIWOOM DRX",
+          "code2": "KRX",
+          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "bestOf": 3
         }
       ]
