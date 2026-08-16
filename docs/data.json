@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:30:15.019Z",
+  "generatedAt": "2026-08-16T09:56:57.709Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -635,7 +635,7 @@
           "matchWins": 5,
           "matchLosses": 6,
           "gameWins": 14,
-          "gameLosses": 14
+          "gameLosses": 15
         },
         {
           "rank": 6,
@@ -644,7 +644,7 @@
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "matchWins": 4,
           "matchLosses": 7,
-          "gameWins": 11,
+          "gameWins": 12,
           "gameLosses": 15
         },
         {
@@ -739,7 +739,7 @@
           "team2": "LGD GAMING",
           "code2": "LGD",
           "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins2": 1
+          "wins2": 2
         },
         {
           "startTime": "2026-08-16T09:00:00Z",
