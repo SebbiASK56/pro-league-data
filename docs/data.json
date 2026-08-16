@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:01:30.584Z",
+  "generatedAt": "2026-08-16T18:44:56.395Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -19,9 +19,9 @@
           "code": "G2",
           "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
           "matchWins": 6,
-          "matchLosses": 1,
+          "matchLosses": 2,
           "gameWins": 13,
-          "gameLosses": 3
+          "gameLosses": 5
         },
         {
           "rank": 3,
@@ -55,6 +55,16 @@
         },
         {
           "rank": 6,
+          "name": "Fnatic",
+          "code": "FNC",
+          "image": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
+          "matchWins": 2,
+          "matchLosses": 3,
+          "gameWins": 6,
+          "gameLosses": 6
+        },
+        {
+          "rank": 7,
           "name": "Natus Vincere",
           "code": "NAVI",
           "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
@@ -64,7 +74,7 @@
           "gameLosses": 7
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "SK Gaming",
           "code": "SK",
           "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
@@ -72,16 +82,6 @@
           "matchLosses": 4,
           "gameWins": 5,
           "gameLosses": 9
-        },
-        {
-          "rank": 8,
-          "name": "Fnatic",
-          "code": "FNC",
-          "image": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "matchWins": 1,
-          "matchLosses": 3,
-          "gameWins": 4,
-          "gameLosses": 6
         },
         {
           "rank": 9,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-09T17:15:00Z",
-          "blockName": "Week 3",
-          "team1": "Karmine Corp",
-          "code1": "KC",
-          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "wins1": 2,
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-10T15:00:00Z",
           "blockName": "Week 3",
@@ -200,6 +188,18 @@
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-16T17:15:00Z",
+          "blockName": "Week 4",
+          "team1": "Fnatic",
+          "code1": "FNC",
+          "image1": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
+          "wins1": 2,
+          "team2": "G2 Esports",
+          "code2": "G2",
+          "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
