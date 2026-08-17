@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T14:34:17.073Z",
+  "generatedAt": "2026-08-17T14:59:32.098Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-17T15:00:00Z",
-          "blockName": "Week 4",
-          "team1": "Team Heretics",
-          "code1": "TH",
-          "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "team2": "Natus Vincere",
-          "code2": "NAVI",
-          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-17T17:15:00Z",
           "blockName": "Week 4",
           "team1": "GIANTX",
@@ -289,6 +278,17 @@
           "team2": "Karmine Corp",
           "code2": "KC",
           "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-24T15:00:00Z",
+          "blockName": "Week 5",
+          "team1": "Natus Vincere",
+          "code1": "NAVI",
+          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "team2": "Fnatic",
+          "code2": "FNC",
+          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "bestOf": 3
         }
       ]
