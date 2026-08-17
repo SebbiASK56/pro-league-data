@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T17:41:26.042Z",
+  "generatedAt": "2026-08-17T18:15:46.214Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -8,9 +8,9 @@
           "name": "Karmine Corp",
           "code": "KC",
           "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "matchWins": 6,
+          "matchWins": 7,
           "matchLosses": 0,
-          "gameWins": 12,
+          "gameWins": 14,
           "gameLosses": 1
         },
         {
@@ -45,16 +45,6 @@
         },
         {
           "rank": 5,
-          "name": "GIANTX",
-          "code": "GX",
-          "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "matchWins": 2,
-          "matchLosses": 2,
-          "gameWins": 6,
-          "gameLosses": 5
-        },
-        {
-          "rank": 6,
           "name": "Movistar KOI",
           "code": "MKOI",
           "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
@@ -64,7 +54,7 @@
           "gameLosses": 10
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "Fnatic",
           "code": "FNC",
           "image": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
@@ -72,6 +62,16 @@
           "matchLosses": 3,
           "gameWins": 6,
           "gameLosses": 6
+        },
+        {
+          "rank": 7,
+          "name": "GIANTX",
+          "code": "GX",
+          "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "matchWins": 2,
+          "matchLosses": 3,
+          "gameWins": 6,
+          "gameLosses": 7
         },
         {
           "rank": 8,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-10T17:15:00Z",
-          "blockName": "Week 3",
-          "team1": "G2 Esports",
-          "code1": "G2",
-          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "wins1": 2,
-          "team2": "Natus Vincere",
-          "code2": "NAVI",
-          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-14T15:00:00Z",
           "blockName": "Week 4",
@@ -200,6 +188,18 @@
           "code2": "NAVI",
           "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-17T17:15:00Z",
+          "blockName": "Week 4",
+          "team1": "Karmine Corp",
+          "code1": "KC",
+          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
+          "wins1": 2,
+          "team2": "GIANTX",
+          "code2": "GX",
+          "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
