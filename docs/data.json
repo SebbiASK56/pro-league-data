@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:15:07.247Z",
+  "generatedAt": "2026-08-19T13:14:36.099Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -350,9 +350,9 @@
           "name": "HANJIN BRION",
           "code": "BRO",
           "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "matchWins": 9,
+          "matchWins": 10,
           "matchLosses": 15,
-          "gameWins": 24,
+          "gameWins": 26,
           "gameLosses": 32
         },
         {
@@ -391,24 +391,12 @@
           "code": "DNS",
           "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
           "matchWins": 5,
-          "matchLosses": 19,
+          "matchLosses": 20,
           "gameWins": 11,
-          "gameLosses": 40
+          "gameLosses": 42
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-13T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "Hanwha Life Esports",
-          "code1": "HLE",
-          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "wins1": 0,
-          "team2": "Gen.G Esports",
-          "code2": "GEN",
-          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-14T08:00:00Z",
           "blockName": "Week 12",
@@ -492,6 +480,18 @@
           "code2": "KT",
           "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "wins2": 1
+        },
+        {
+          "startTime": "2026-08-19T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "DN SOOPers",
+          "code1": "DNS",
+          "image1": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+          "wins1": 0,
+          "team2": "HANJIN BRION",
+          "code2": "BRO",
+          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
@@ -589,16 +589,6 @@
       "standings": [
         {
           "rank": 1,
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 10,
-          "matchLosses": 2,
-          "gameWins": 20,
-          "gameLosses": 9
-        },
-        {
-          "rank": 2,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
@@ -608,13 +598,23 @@
           "gameLosses": 8
         },
         {
-          "rank": 3,
+          "rank": 2,
+          "name": "Anyone's Legend",
+          "code": "AL",
+          "image": "http://static.lolesports.com/teams/1641199582689_.png",
+          "matchWins": 9,
+          "matchLosses": 3,
+          "gameWins": 20,
+          "gameLosses": 10
+        },
+        {
+          "rank": 2,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 8,
-          "matchLosses": 4,
-          "gameWins": 17,
+          "matchWins": 9,
+          "matchLosses": 3,
+          "gameWins": 18,
           "gameLosses": 9
         },
         {
@@ -747,7 +747,7 @@
           "team1": "TOP ESPORTS",
           "code1": "TES",
           "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
