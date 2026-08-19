@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T06:50:14.954Z",
+  "generatedAt": "2026-08-19T07:30:10.582Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -732,13 +732,13 @@
         {
           "startTime": "2026-08-19T07:00:00Z",
           "blockName": "Week 5",
-          "team1": "Suzhou LNG Esports",
-          "code1": "LNG",
-          "image1": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
+          "team1": "WeiboGaming",
+          "code1": "WBG",
+          "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
           "wins1": 0,
-          "team2": "WeiboGaming",
-          "code2": "WBG",
-          "image2": "http://static.lolesports.com/teams/1641202879910_3.png",
+          "team2": "Suzhou LNG Esports",
+          "code2": "LNG",
+          "image2": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
           "wins2": 0
         },
         {
