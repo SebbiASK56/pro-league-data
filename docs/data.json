@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T14:50:54.713Z",
+  "generatedAt": "2026-08-19T15:35:02.794Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -625,7 +625,7 @@
           "matchWins": 6,
           "matchLosses": 6,
           "gameWins": 13,
-          "gameLosses": 13
+          "gameLosses": 14
         },
         {
           "rank": 5,
@@ -664,7 +664,7 @@
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
           "matchWins": 1,
           "matchLosses": 11,
-          "gameWins": 3,
+          "gameWins": 4,
           "gameLosses": 22
         }
       ],
@@ -759,7 +759,7 @@
           "team1": "EDWARD GAMING",
           "code1": "EDG",
           "image1": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
