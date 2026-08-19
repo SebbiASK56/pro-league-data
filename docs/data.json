@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T13:14:36.099Z",
+  "generatedAt": "2026-08-19T14:01:34.053Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -622,8 +622,8 @@
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "matchWins": 6,
-          "matchLosses": 6,
+          "matchWins": 7,
+          "matchLosses": 5,
           "gameWins": 13,
           "gameLosses": 12
         },
@@ -662,8 +662,8 @@
           "name": "EDWARD GAMING",
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "matchWins": 1,
-          "matchLosses": 11,
+          "matchWins": 0,
+          "matchLosses": 12,
           "gameWins": 2,
           "gameLosses": 22
         }
@@ -756,13 +756,13 @@
         {
           "startTime": "2026-08-19T09:00:00Z",
           "blockName": "Week 5",
-          "team1": "Xi'an Team WE",
-          "code1": "WE",
-          "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "team1": "EDWARD GAMING",
+          "code1": "EDG",
+          "image1": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
           "wins1": 0,
-          "team2": "EDWARD GAMING",
-          "code2": "EDG",
-          "image2": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
+          "team2": "Xi'an Team WE",
+          "code2": "WE",
+          "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
           "wins2": 0
         }
       ],
