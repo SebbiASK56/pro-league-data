@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:30:10.582Z",
+  "generatedAt": "2026-08-19T08:05:52.977Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-19T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "Gen.G Esports",
-          "code1": "GEN",
-          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "team2": "kt Rolster",
-          "code2": "KT",
-          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-19T10:00:00Z",
           "blockName": "Week 13",
           "team1": "HANJIN BRION",
@@ -581,6 +570,17 @@
           "team2": "KIWOOM DRX",
           "code2": "KRX",
           "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-23T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "bestOf": 3
         }
       ]
@@ -735,7 +735,7 @@
           "team1": "WeiboGaming",
           "code1": "WBG",
           "image1": "http://static.lolesports.com/teams/1641202879910_3.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Suzhou LNG Esports",
           "code2": "LNG",
           "image2": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
