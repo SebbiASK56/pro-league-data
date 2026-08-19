@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:03:35.979Z",
+  "generatedAt": "2026-08-19T10:44:12.753Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -300,10 +300,10 @@
           "name": "Gen.G Esports",
           "code": "GEN",
           "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "matchWins": 18,
+          "matchWins": 19,
           "matchLosses": 6,
-          "gameWins": 38,
-          "gameLosses": 16
+          "gameWins": 40,
+          "gameLosses": 17
         },
         {
           "rank": 2,
@@ -341,9 +341,9 @@
           "code": "KT",
           "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "matchWins": 15,
-          "matchLosses": 9,
-          "gameWins": 32,
-          "gameLosses": 24
+          "matchLosses": 10,
+          "gameWins": 33,
+          "gameLosses": 26
         },
         {
           "rank": 6,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-13T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "KIWOOM DRX",
-          "code1": "KRX",
-          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "wins1": 1,
-          "team2": "BNK FEARX",
-          "code2": "BFX",
-          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-13T10:00:00Z",
           "blockName": "Week 12",
@@ -492,20 +480,21 @@
           "code2": "KRX",
           "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "wins2": 1
+        },
+        {
+          "startTime": "2026-08-19T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Gen.G Esports",
+          "code1": "GEN",
+          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "wins1": 2,
+          "team2": "kt Rolster",
+          "code2": "KT",
+          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-19T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "HANJIN BRION",
-          "code1": "BRO",
-          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "team2": "DN SOOPers",
-          "code2": "DNS",
-          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-20T08:00:00Z",
           "blockName": "Week 13",
@@ -582,6 +571,17 @@
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-23T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "BNK FEARX",
+          "code1": "BFX",
+          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "team2": "NONGSHIM RED FORCE",
+          "code2": "NS",
+          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "bestOf": 3
         }
       ]
     },
@@ -589,6 +589,16 @@
       "standings": [
         {
           "rank": 1,
+          "name": "Anyone's Legend",
+          "code": "AL",
+          "image": "http://static.lolesports.com/teams/1641199582689_.png",
+          "matchWins": 10,
+          "matchLosses": 2,
+          "gameWins": 19,
+          "gameLosses": 8
+        },
+        {
+          "rank": 2,
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
@@ -598,22 +608,12 @@
           "gameLosses": 8
         },
         {
-          "rank": 2,
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 9,
-          "matchLosses": 3,
-          "gameWins": 19,
-          "gameLosses": 8
-        },
-        {
-          "rank": 2,
+          "rank": 3,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 9,
-          "matchLosses": 3,
+          "matchWins": 8,
+          "matchLosses": 4,
           "gameWins": 16,
           "gameLosses": 8
         },
@@ -744,13 +744,13 @@
         {
           "startTime": "2026-08-19T08:00:00Z",
           "blockName": "Week 5",
-          "team1": "Anyone's Legend",
-          "code1": "AL",
-          "image1": "http://static.lolesports.com/teams/1641199582689_.png",
+          "team1": "TOP ESPORTS",
+          "code1": "TES",
+          "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
           "wins1": 0,
-          "team2": "TOP ESPORTS",
-          "code2": "TES",
-          "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "team2": "Anyone's Legend",
+          "code2": "AL",
+          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
           "wins2": 0
         },
         {
