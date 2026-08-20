@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T14:52:27.126Z",
+  "generatedAt": "2026-08-20T15:36:56.200Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -594,7 +594,7 @@
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "matchWins": 10,
           "matchLosses": 2,
-          "gameWins": 20,
+          "gameWins": 21,
           "gameLosses": 9
         },
         {
@@ -645,7 +645,7 @@
           "matchWins": 4,
           "matchLosses": 8,
           "gameWins": 13,
-          "gameLosses": 16
+          "gameLosses": 17
         },
         {
           "rank": 7,
@@ -763,7 +763,7 @@
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 1
+          "wins2": 2
         }
       ],
       "upcoming": [
