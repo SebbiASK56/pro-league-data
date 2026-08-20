@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:18:06.444Z",
+  "generatedAt": "2026-08-20T14:04:47.122Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -592,13 +592,13 @@
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "matchWins": 9,
-          "matchLosses": 3,
-          "gameWins": 19,
+          "matchWins": 10,
+          "matchLosses": 2,
+          "gameWins": 20,
           "gameLosses": 9
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
@@ -608,7 +608,7 @@
           "gameLosses": 10
         },
         {
-          "rank": 1,
+          "rank": 2,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
@@ -642,10 +642,10 @@
           "name": "LGD GAMING",
           "code": "LGD",
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "matchWins": 5,
-          "matchLosses": 7,
+          "matchWins": 4,
+          "matchLosses": 8,
           "gameWins": 13,
-          "gameLosses": 15
+          "gameLosses": 16
         },
         {
           "rank": 7,
@@ -763,7 +763,7 @@
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 0
+          "wins2": 1
         }
       ],
       "upcoming": [
