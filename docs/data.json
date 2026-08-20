@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T10:45:17.451Z",
+  "generatedAt": "2026-08-20T11:12:35.087Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -619,6 +619,16 @@
         },
         {
           "rank": 4,
+          "name": "Beijing JDG Esports",
+          "code": "JDG",
+          "image": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "matchWins": 6,
+          "matchLosses": 6,
+          "gameWins": 15,
+          "gameLosses": 16
+        },
+        {
+          "rank": 4,
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
@@ -626,16 +636,6 @@
           "matchLosses": 6,
           "gameWins": 13,
           "gameLosses": 14
-        },
-        {
-          "rank": 5,
-          "name": "Beijing JDG Esports",
-          "code": "JDG",
-          "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 5,
-          "matchLosses": 7,
-          "gameWins": 14,
-          "gameLosses": 16
         },
         {
           "rank": 6,
@@ -648,14 +648,14 @@
           "gameLosses": 15
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "THUNDER TALK GAMING",
           "code": "TT",
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "matchWins": 4,
-          "matchLosses": 8,
+          "matchWins": 3,
+          "matchLosses": 9,
           "gameWins": 12,
-          "gameLosses": 18
+          "gameLosses": 19
         },
         {
           "rank": 8,
@@ -751,7 +751,7 @@
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-20T11:00:00Z",
