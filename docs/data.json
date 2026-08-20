@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:13:28.746Z",
+  "generatedAt": "2026-08-20T08:00:26.635Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-20T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "team2": "Hanwha Life Esports",
-          "code2": "HLE",
-          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-20T10:00:00Z",
           "blockName": "Week 13",
           "team1": "NONGSHIM RED FORCE",
@@ -582,6 +571,17 @@
           "code2": "NS",
           "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
           "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-26T08:00:00Z",
+          "blockName": "Play-Ins",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
         }
       ]
     },
