@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T11:47:06.724Z",
+  "generatedAt": "2026-08-20T12:17:07.305Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -370,9 +370,9 @@
           "name": "NONGSHIM RED FORCE",
           "code": "NS",
           "image": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "matchWins": 8,
+          "matchWins": 9,
           "matchLosses": 16,
-          "gameWins": 21,
+          "gameWins": 23,
           "gameLosses": 35
         },
         {
@@ -381,9 +381,9 @@
           "code": "KRX",
           "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "matchWins": 7,
-          "matchLosses": 17,
+          "matchLosses": 18,
           "gameWins": 22,
-          "gameLosses": 37
+          "gameLosses": 39
         },
         {
           "rank": 10,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-14T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "HANJIN BRION",
-          "code1": "BRO",
-          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins1": 0,
-          "team2": "NONGSHIM RED FORCE",
-          "code2": "NS",
-          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-15T08:00:00Z",
           "blockName": "Week 12",
@@ -492,6 +480,18 @@
           "code2": "DK",
           "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-20T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "KIWOOM DRX",
+          "code1": "KRX",
+          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "wins1": 0,
+          "team2": "NONGSHIM RED FORCE",
+          "code2": "NS",
+          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
