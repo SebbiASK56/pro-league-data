@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T11:12:35.087Z",
+  "generatedAt": "2026-08-20T11:47:06.724Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -624,7 +624,7 @@
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
           "matchWins": 6,
           "matchLosses": 6,
-          "gameWins": 15,
+          "gameWins": 16,
           "gameLosses": 16
         },
         {
@@ -655,7 +655,7 @@
           "matchWins": 3,
           "matchLosses": 9,
           "gameWins": 12,
-          "gameLosses": 19
+          "gameLosses": 20
         },
         {
           "rank": 8,
@@ -751,7 +751,7 @@
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins2": 1
+          "wins2": 2
         },
         {
           "startTime": "2026-08-20T11:00:00Z",
