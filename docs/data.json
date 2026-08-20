@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T09:38:18.650Z",
+  "generatedAt": "2026-08-20T10:05:41.945Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -310,9 +310,9 @@
           "name": "Hanwha Life Esports",
           "code": "HLE",
           "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "matchWins": 17,
+          "matchWins": 18,
           "matchLosses": 7,
-          "gameWins": 39,
+          "gameWins": 41,
           "gameLosses": 21
         },
         {
@@ -331,9 +331,9 @@
           "code": "DK",
           "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "matchWins": 16,
-          "matchLosses": 8,
+          "matchLosses": 9,
           "gameWins": 34,
-          "gameLosses": 23
+          "gameLosses": 25
         },
         {
           "rank": 5,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-14T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "wins1": 2,
-          "team2": "T1",
-          "code2": "T1",
-          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "wins2": 1
-        },
         {
           "startTime": "2026-08-14T10:00:00Z",
           "blockName": "Week 12",
@@ -492,20 +480,21 @@
           "code2": "BRO",
           "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-20T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "wins1": 2,
+          "team2": "Dplus KIA",
+          "code2": "DK",
+          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-20T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "NONGSHIM RED FORCE",
-          "code1": "NS",
-          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "team2": "KIWOOM DRX",
-          "code2": "KRX",
-          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-21T08:00:00Z",
           "blockName": "Week 13",
@@ -582,6 +571,17 @@
           "code2": "TBD",
           "image2": "https://static.lolesports.com/teams/team-tbd.png",
           "bestOf": 5
+        },
+        {
+          "startTime": "2026-08-27T08:00:00Z",
+          "blockName": "Play-Ins",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
         }
       ]
     },
@@ -619,16 +619,6 @@
         },
         {
           "rank": 4,
-          "name": "Beijing JDG Esports",
-          "code": "JDG",
-          "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 6,
-          "matchLosses": 6,
-          "gameWins": 14,
-          "gameLosses": 15
-        },
-        {
-          "rank": 4,
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
@@ -636,6 +626,16 @@
           "matchLosses": 6,
           "gameWins": 13,
           "gameLosses": 14
+        },
+        {
+          "rank": 5,
+          "name": "Beijing JDG Esports",
+          "code": "JDG",
+          "image": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "matchWins": 5,
+          "matchLosses": 7,
+          "gameWins": 14,
+          "gameLosses": 16
         },
         {
           "rank": 6,
@@ -648,13 +648,13 @@
           "gameLosses": 15
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "THUNDER TALK GAMING",
           "code": "TT",
           "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "matchWins": 3,
-          "matchLosses": 9,
-          "gameWins": 11,
+          "matchWins": 4,
+          "matchLosses": 8,
+          "gameWins": 12,
           "gameLosses": 18
         },
         {
@@ -747,7 +747,7 @@
           "team1": "THUNDER TALK GAMING",
           "code1": "TT",
           "image1": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
