@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:05:19.732Z",
+  "generatedAt": "2026-08-21T07:54:37.854Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-21T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "HANJIN BRION",
-          "code1": "BRO",
-          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "team2": "BNK FEARX",
-          "code2": "BFX",
-          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-21T10:00:00Z",
           "blockName": "Week 13",
           "team1": "kt Rolster",
@@ -574,6 +563,17 @@
         },
         {
           "startTime": "2026-08-27T08:00:00Z",
+          "blockName": "Play-Ins",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-08-28T08:00:00Z",
           "blockName": "Play-Ins",
           "team1": "TBD",
           "code1": "TBD",
