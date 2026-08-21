@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T10:01:35.889Z",
+  "generatedAt": "2026-08-21T10:44:29.132Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -599,6 +599,16 @@
         },
         {
           "rank": 1,
+          "name": "Anyone's Legend",
+          "code": "AL",
+          "image": "http://static.lolesports.com/teams/1641199582689_.png",
+          "matchWins": 10,
+          "matchLosses": 3,
+          "gameWins": 21,
+          "gameLosses": 10
+        },
+        {
+          "rank": 1,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
@@ -608,27 +618,7 @@
           "gameLosses": 9
         },
         {
-          "rank": 3,
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 9,
-          "matchLosses": 4,
-          "gameWins": 20,
-          "gameLosses": 10
-        },
-        {
           "rank": 4,
-          "name": "Xi'an Team WE",
-          "code": "WE",
-          "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "matchWins": 7,
-          "matchLosses": 6,
-          "gameWins": 13,
-          "gameLosses": 14
-        },
-        {
-          "rank": 5,
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
@@ -636,6 +626,16 @@
           "matchLosses": 6,
           "gameWins": 16,
           "gameLosses": 16
+        },
+        {
+          "rank": 5,
+          "name": "Xi'an Team WE",
+          "code": "WE",
+          "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "matchWins": 6,
+          "matchLosses": 7,
+          "gameWins": 13,
+          "gameLosses": 15
         },
         {
           "rank": 6,
@@ -747,7 +747,7 @@
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
