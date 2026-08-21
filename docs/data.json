@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T19:15:52.302Z",
+  "generatedAt": "2026-08-21T19:42:46.829Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -28,23 +28,13 @@
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "matchWins": 4,
+          "matchWins": 5,
           "matchLosses": 2,
-          "gameWins": 8,
-          "gameLosses": 6
-        },
-        {
-          "rank": 4,
-          "name": "Natus Vincere",
-          "code": "NAVI",
-          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "matchWins": 3,
-          "matchLosses": 3,
-          "gameWins": 6,
+          "gameWins": 10,
           "gameLosses": 7
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Movistar KOI",
           "code": "MKOI",
           "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
@@ -52,6 +42,16 @@
           "matchLosses": 4,
           "gameWins": 8,
           "gameLosses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Natus Vincere",
+          "code": "NAVI",
+          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "matchWins": 3,
+          "matchLosses": 4,
+          "gameWins": 7,
+          "gameLosses": 9
         },
         {
           "rank": 6,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-14T17:15:00Z",
-          "blockName": "Week 4",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "wins1": 1,
-          "team2": "Team Vitality",
-          "code2": "VIT",
-          "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-15T15:00:00Z",
           "blockName": "Week 4",
@@ -199,6 +187,18 @@
           "team2": "Team Heretics",
           "code2": "TH",
           "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins2": 2
+        },
+        {
+          "startTime": "2026-08-21T17:15:00Z",
+          "blockName": "Week 5",
+          "team1": "Natus Vincere",
+          "code1": "NAVI",
+          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "wins1": 1,
+          "team2": "Team Vitality",
+          "code2": "VIT",
+          "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
           "wins2": 2
         }
       ],
