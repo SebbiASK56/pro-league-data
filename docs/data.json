@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:44:46.548Z",
+  "generatedAt": "2026-08-21T09:21:32.406Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -655,7 +655,7 @@
           "matchWins": 3,
           "matchLosses": 10,
           "gameWins": 12,
-          "gameLosses": 21
+          "gameLosses": 22
         },
         {
           "rank": 8,
@@ -664,7 +664,7 @@
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
           "matchWins": 2,
           "matchLosses": 11,
-          "gameWins": 5,
+          "gameWins": 6,
           "gameLosses": 22
         }
       ],
@@ -739,7 +739,7 @@
           "team2": "EDWARD GAMING",
           "code2": "EDG",
           "image2": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "wins2": 1
+          "wins2": 2
         },
         {
           "startTime": "2026-08-21T09:00:00Z",
