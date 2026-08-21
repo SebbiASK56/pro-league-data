@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:46:47.124Z",
+  "generatedAt": "2026-08-21T12:16:56.351Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -615,7 +615,7 @@
           "matchWins": 9,
           "matchLosses": 4,
           "gameWins": 21,
-          "gameLosses": 11
+          "gameLosses": 12
         },
         {
           "rank": 4,
@@ -624,7 +624,7 @@
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
           "matchWins": 7,
           "matchLosses": 6,
-          "gameWins": 14,
+          "gameWins": 15,
           "gameLosses": 15
         },
         {
@@ -751,7 +751,7 @@
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "wins2": 1
+          "wins2": 2
         },
         {
           "startTime": "2026-08-21T11:00:00Z",
