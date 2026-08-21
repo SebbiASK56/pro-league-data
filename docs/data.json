@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T16:03:55.406Z",
+  "generatedAt": "2026-08-21T16:49:14.186Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -75,23 +75,23 @@
         },
         {
           "rank": 8,
-          "name": "SK Gaming",
-          "code": "SK",
-          "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "name": "Team Heretics",
+          "code": "TH",
+          "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
           "matchWins": 2,
           "matchLosses": 4,
-          "gameWins": 5,
+          "gameWins": 4,
           "gameLosses": 9
         },
         {
           "rank": 9,
-          "name": "Team Heretics",
-          "code": "TH",
-          "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "matchWins": 1,
-          "matchLosses": 4,
-          "gameWins": 2,
-          "gameLosses": 9
+          "name": "SK Gaming",
+          "code": "SK",
+          "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "matchWins": 2,
+          "matchLosses": 5,
+          "gameWins": 5,
+          "gameLosses": 11
         },
         {
           "rank": 10,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-14T15:00:00Z",
-          "blockName": "Week 4",
-          "team1": "SK Gaming",
-          "code1": "SK",
-          "image1": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "wins1": 2,
-          "team2": "Shifters",
-          "code2": "SHFT",
-          "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-14T17:15:00Z",
           "blockName": "Week 4",
@@ -200,20 +188,21 @@
           "code2": "GX",
           "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-21T15:00:00Z",
+          "blockName": "Week 5",
+          "team1": "SK Gaming",
+          "code1": "SK",
+          "image1": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "wins1": 0,
+          "team2": "Team Heretics",
+          "code2": "TH",
+          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-21T17:15:00Z",
-          "blockName": "Week 5",
-          "team1": "Natus Vincere",
-          "code1": "NAVI",
-          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "team2": "Team Vitality",
-          "code2": "VIT",
-          "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-22T15:00:00Z",
           "blockName": "Week 5",
@@ -289,6 +278,17 @@
           "team2": "Shifters",
           "code2": "SHFT",
           "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-28T17:15:00Z",
+          "blockName": "Week 6",
+          "team1": "Team Vitality",
+          "code1": "VIT",
+          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "team2": "Fnatic",
+          "code2": "FNC",
+          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "bestOf": 3
         }
       ]
