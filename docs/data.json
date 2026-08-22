@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T11:28:11.171Z",
+  "generatedAt": "2026-08-22T11:50:12.973Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -747,7 +747,7 @@
           "team1": "Shenzhen NINJAS IN PYJAMAS",
           "code1": "NIP",
           "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
