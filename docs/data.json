@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:06:24.445Z",
+  "generatedAt": "2026-08-22T13:43:18.867Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -381,34 +381,22 @@
           "code": "KRX",
           "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
           "matchWins": 7,
-          "matchLosses": 18,
+          "matchLosses": 19,
           "gameWins": 22,
-          "gameLosses": 39
+          "gameLosses": 41
         },
         {
           "rank": 10,
           "name": "DN SOOPers",
           "code": "DNS",
           "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "matchWins": 5,
+          "matchWins": 6,
           "matchLosses": 20,
-          "gameWins": 11,
+          "gameWins": 13,
           "gameLosses": 42
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-16T10:00:00Z",
-          "blockName": "Week 12",
-          "team1": "HANJIN BRION",
-          "code1": "BRO",
-          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins1": 2,
-          "team2": "KIWOOM DRX",
-          "code2": "KRX",
-          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "wins2": 1
-        },
         {
           "startTime": "2026-08-19T08:00:00Z",
           "blockName": "Week 13",
@@ -491,6 +479,18 @@
           "team2": "Dplus KIA",
           "code2": "DK",
           "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "wins2": 2
+        },
+        {
+          "startTime": "2026-08-22T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "KIWOOM DRX",
+          "code1": "KRX",
+          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+          "wins1": 0,
+          "team2": "DN SOOPers",
+          "code2": "DNS",
+          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
           "wins2": 2
         }
       ],
