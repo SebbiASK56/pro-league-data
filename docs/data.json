@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T14:57:04.447Z",
+  "generatedAt": "2026-08-22T15:29:05.683Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-22T15:00:00Z",
-          "blockName": "Week 5",
-          "team1": "Shifters",
-          "code1": "SHFT",
-          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-22T17:15:00Z",
           "blockName": "Week 5",
           "team1": "SK Gaming",
@@ -289,6 +278,17 @@
           "team2": "Fnatic",
           "code2": "FNC",
           "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-29T15:00:00Z",
+          "blockName": "Week 6",
+          "team1": "SK Gaming",
+          "code1": "SK",
+          "image1": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "team2": "Karmine Corp",
+          "code2": "KC",
+          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
           "bestOf": 3
         }
       ]
