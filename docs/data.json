@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:30:44.357Z",
+  "generatedAt": "2026-08-22T09:57:12.527Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -622,10 +622,10 @@
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "matchWins": 8,
-          "matchLosses": 6,
+          "matchWins": 7,
+          "matchLosses": 7,
           "gameWins": 16,
-          "gameLosses": 16
+          "gameLosses": 17
         },
         {
           "rank": 5,
@@ -642,9 +642,9 @@
           "name": "LGD GAMING",
           "code": "LGD",
           "image": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "matchWins": 4,
-          "matchLosses": 9,
-          "gameWins": 14,
+          "matchWins": 5,
+          "matchLosses": 8,
+          "gameWins": 15,
           "gameLosses": 18
         },
         {
@@ -735,7 +735,7 @@
           "team1": "LGD GAMING",
           "code1": "LGD",
           "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins1": 1,
+          "wins1": 2,
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
