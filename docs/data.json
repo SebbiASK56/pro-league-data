@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:08:53.762Z",
+  "generatedAt": "2026-08-22T18:49:03.327Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -45,16 +45,6 @@
         },
         {
           "rank": 5,
-          "name": "Movistar KOI",
-          "code": "MKOI",
-          "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "matchWins": 3,
-          "matchLosses": 4,
-          "gameWins": 8,
-          "gameLosses": 10
-        },
-        {
-          "rank": 6,
           "name": "Natus Vincere",
           "code": "NAVI",
           "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
@@ -64,7 +54,7 @@
           "gameLosses": 9
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "GIANTX",
           "code": "GX",
           "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
@@ -74,7 +64,27 @@
           "gameLosses": 7
         },
         {
+          "rank": 7,
+          "name": "Movistar KOI",
+          "code": "MKOI",
+          "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "matchWins": 3,
+          "matchLosses": 5,
+          "gameWins": 8,
+          "gameLosses": 12
+        },
+        {
           "rank": 8,
+          "name": "SK Gaming",
+          "code": "SK",
+          "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "matchWins": 3,
+          "matchLosses": 5,
+          "gameWins": 7,
+          "gameLosses": 11
+        },
+        {
+          "rank": 9,
           "name": "Team Heretics",
           "code": "TH",
           "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
@@ -82,16 +92,6 @@
           "matchLosses": 4,
           "gameWins": 4,
           "gameLosses": 9
-        },
-        {
-          "rank": 9,
-          "name": "SK Gaming",
-          "code": "SK",
-          "image": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "matchWins": 2,
-          "matchLosses": 5,
-          "gameWins": 5,
-          "gameLosses": 11
         },
         {
           "rank": 10,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-15T17:15:00Z",
-          "blockName": "Week 4",
-          "team1": "G2 Esports",
-          "code1": "G2",
-          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "wins1": 2,
-          "team2": "Shifters",
-          "code2": "SHFT",
-          "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-16T15:00:00Z",
           "blockName": "Week 4",
@@ -200,6 +188,18 @@
           "code2": "SHFT",
           "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-22T17:15:00Z",
+          "blockName": "Week 5",
+          "team1": "Movistar KOI",
+          "code1": "MKOI",
+          "image1": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "wins1": 0,
+          "team2": "SK Gaming",
+          "code2": "SK",
+          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
