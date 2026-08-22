@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T10:32:10.055Z",
+  "generatedAt": "2026-08-22T10:57:35.219Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -301,9 +301,9 @@
           "code": "GEN",
           "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "matchWins": 19,
-          "matchLosses": 6,
-          "gameWins": 40,
-          "gameLosses": 17
+          "matchLosses": 7,
+          "gameWins": 41,
+          "gameLosses": 19
         },
         {
           "rank": 2,
@@ -330,10 +330,10 @@
           "name": "Dplus KIA",
           "code": "DK",
           "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "matchWins": 16,
+          "matchWins": 17,
           "matchLosses": 9,
-          "gameWins": 34,
-          "gameLosses": 25
+          "gameWins": 36,
+          "gameLosses": 26
         },
         {
           "rank": 5,
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-16T08:00:00Z",
-          "blockName": "Week 12",
-          "team1": "Gen.G Esports",
-          "code1": "GEN",
-          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "wins1": 2,
-          "team2": "T1",
-          "code2": "T1",
-          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-16T10:00:00Z",
           "blockName": "Week 12",
@@ -492,20 +480,21 @@
           "code2": "KT",
           "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "wins2": 1
+        },
+        {
+          "startTime": "2026-08-22T08:00:00Z",
+          "blockName": "Week 13",
+          "team1": "Gen.G Esports",
+          "code1": "GEN",
+          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "wins1": 1,
+          "team2": "Dplus KIA",
+          "code2": "DK",
+          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-22T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "DN SOOPers",
-          "code1": "DNS",
-          "image1": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "team2": "KIWOOM DRX",
-          "code2": "KRX",
-          "image2": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-23T08:00:00Z",
           "blockName": "Week 13",
@@ -574,6 +563,17 @@
         },
         {
           "startTime": "2026-08-30T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-01T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
@@ -747,7 +747,7 @@
           "team1": "Shenzhen NINJAS IN PYJAMAS",
           "code1": "NIP",
           "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
