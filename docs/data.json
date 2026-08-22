@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T07:43:28.989Z",
+  "generatedAt": "2026-08-22T08:11:46.201Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-22T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "team2": "Gen.G Esports",
-          "code2": "GEN",
-          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-22T10:00:00Z",
           "blockName": "Week 13",
           "team1": "DN SOOPers",
@@ -582,6 +571,17 @@
           "code2": "TBD",
           "image2": "https://static.lolesports.com/teams/team-tbd.png",
           "bestOf": 5
+        },
+        {
+          "startTime": "2026-08-30T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
         }
       ]
     },
@@ -624,7 +624,7 @@
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
           "matchWins": 8,
           "matchLosses": 6,
-          "gameWins": 15,
+          "gameWins": 16,
           "gameLosses": 15
         },
         {
@@ -645,7 +645,7 @@
           "matchWins": 4,
           "matchLosses": 9,
           "gameWins": 13,
-          "gameLosses": 17
+          "gameLosses": 18
         },
         {
           "rank": 7,
@@ -739,7 +739,7 @@
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-22T09:00:00Z",
