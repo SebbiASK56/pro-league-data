@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:18:58.291Z",
+  "generatedAt": "2026-08-22T13:06:24.445Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -599,16 +599,6 @@
         },
         {
           "rank": 2,
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "matchWins": 10,
-          "matchLosses": 4,
-          "gameWins": 18,
-          "gameLosses": 11
-        },
-        {
-          "rank": 3,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
@@ -618,7 +608,27 @@
           "gameLosses": 12
         },
         {
+          "rank": 3,
+          "name": "TOP ESPORTS",
+          "code": "TES",
+          "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "matchWins": 9,
+          "matchLosses": 5,
+          "gameWins": 18,
+          "gameLosses": 12
+        },
+        {
           "rank": 4,
+          "name": "Beijing JDG Esports",
+          "code": "JDG",
+          "image": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "matchWins": 7,
+          "matchLosses": 6,
+          "gameWins": 17,
+          "gameLosses": 16
+        },
+        {
+          "rank": 5,
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
@@ -626,16 +636,6 @@
           "matchLosses": 7,
           "gameWins": 16,
           "gameLosses": 17
-        },
-        {
-          "rank": 5,
-          "name": "Beijing JDG Esports",
-          "code": "JDG",
-          "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 6,
-          "matchLosses": 7,
-          "gameWins": 16,
-          "gameLosses": 16
         },
         {
           "rank": 6,
@@ -759,7 +759,7 @@
           "team1": "Beijing JDG Esports",
           "code1": "JDG",
           "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
