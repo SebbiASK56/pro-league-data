@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:33:43.296Z",
+  "generatedAt": "2026-08-23T16:59:09.166Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -45,6 +45,16 @@
         },
         {
           "rank": 5,
+          "name": "GIANTX",
+          "code": "GX",
+          "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "matchWins": 3,
+          "matchLosses": 3,
+          "gameWins": 8,
+          "gameLosses": 7
+        },
+        {
+          "rank": 6,
           "name": "Natus Vincere",
           "code": "NAVI",
           "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
@@ -52,16 +62,6 @@
           "matchLosses": 4,
           "gameWins": 7,
           "gameLosses": 9
-        },
-        {
-          "rank": 6,
-          "name": "GIANTX",
-          "code": "GX",
-          "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "matchWins": 2,
-          "matchLosses": 3,
-          "gameWins": 6,
-          "gameLosses": 7
         },
         {
           "rank": 7,
@@ -89,9 +89,9 @@
           "code": "TH",
           "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
           "matchWins": 2,
-          "matchLosses": 4,
+          "matchLosses": 5,
           "gameWins": 4,
-          "gameLosses": 9
+          "gameLosses": 11
         },
         {
           "rank": 10,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-16T15:00:00Z",
-          "blockName": "Week 4",
-          "team1": "Natus Vincere",
-          "code1": "NAVI",
-          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "wins1": 0,
-          "team2": "Movistar KOI",
-          "code2": "MKOI",
-          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-16T17:15:00Z",
           "blockName": "Week 4",
@@ -200,20 +188,21 @@
           "code2": "SK",
           "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-23T15:00:00Z",
+          "blockName": "Week 5",
+          "team1": "GIANTX",
+          "code1": "GX",
+          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "wins1": 2,
+          "team2": "Team Heretics",
+          "code2": "TH",
+          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins2": 0
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-08-23T17:15:00Z",
-          "blockName": "Week 5",
-          "team1": "Shifters",
-          "code1": "SHFT",
-          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "team2": "Karmine Corp",
-          "code2": "KC",
-          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "bestOf": 3
-        },
         {
           "startTime": "2026-08-24T15:00:00Z",
           "blockName": "Week 5",
@@ -289,6 +278,17 @@
           "team2": "Shifters",
           "code2": "SHFT",
           "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-30T14:15:00Z",
+          "blockName": "Week 6",
+          "team1": "Team Heretics",
+          "code1": "TH",
+          "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "team2": "Movistar KOI",
+          "code2": "MKOI",
+          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
           "bestOf": 3
         }
       ]
