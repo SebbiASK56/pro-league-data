@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T11:56:09.281Z",
+  "generatedAt": "2026-08-23T12:52:18.405Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -347,16 +347,6 @@
         },
         {
           "rank": 6,
-          "name": "BNK FEARX",
-          "code": "BFX",
-          "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "matchWins": 10,
-          "matchLosses": 15,
-          "gameWins": 23,
-          "gameLosses": 33
-        },
-        {
-          "rank": 7,
           "name": "HANJIN BRION",
           "code": "BRO",
           "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
@@ -366,13 +356,23 @@
           "gameLosses": 34
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "NONGSHIM RED FORCE",
           "code": "NS",
           "image": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "matchWins": 9,
+          "matchWins": 10,
           "matchLosses": 16,
-          "gameWins": 23,
+          "gameWins": 25,
+          "gameLosses": 36
+        },
+        {
+          "rank": 8,
+          "name": "BNK FEARX",
+          "code": "BFX",
+          "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "matchWins": 10,
+          "matchLosses": 16,
+          "gameWins": 24,
           "gameLosses": 35
         },
         {
@@ -397,18 +397,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-19T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "DN SOOPers",
-          "code1": "DNS",
-          "image1": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "wins1": 0,
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-20T08:00:00Z",
           "blockName": "Week 13",
@@ -492,6 +480,18 @@
           "code2": "HLE",
           "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-23T10:00:00Z",
+          "blockName": "Week 13",
+          "team1": "NONGSHIM RED FORCE",
+          "code1": "NS",
+          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "wins1": 2,
+          "team2": "BNK FEARX",
+          "code2": "BFX",
+          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
