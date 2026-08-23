@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:52:18.405Z",
+  "generatedAt": "2026-08-23T13:34:32.873Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -592,23 +592,23 @@
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "matchWins": 12,
-          "matchLosses": 2,
+          "matchWins": 11,
+          "matchLosses": 3,
           "gameWins": 23,
-          "gameLosses": 9
+          "gameLosses": 10
         },
         {
           "rank": 2,
           "name": "Anyone's Legend",
           "code": "AL",
           "image": "http://static.lolesports.com/teams/1641199582689_.png",
-          "matchWins": 9,
-          "matchLosses": 5,
-          "gameWins": 21,
+          "matchWins": 10,
+          "matchLosses": 4,
+          "gameWins": 22,
           "gameLosses": 12
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "TOP ESPORTS",
           "code": "TES",
           "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
@@ -759,7 +759,7 @@
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
