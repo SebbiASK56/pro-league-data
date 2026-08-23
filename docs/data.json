@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:31:59.733Z",
+  "generatedAt": "2026-08-23T19:54:09.259Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -8,10 +8,10 @@
           "name": "Karmine Corp",
           "code": "KC",
           "image": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "matchWins": 7,
+          "matchWins": 8,
           "matchLosses": 0,
-          "gameWins": 14,
-          "gameLosses": 1
+          "gameWins": 16,
+          "gameLosses": 2
         },
         {
           "rank": 2,
@@ -99,24 +99,12 @@
           "code": "SHFT",
           "image": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
           "matchWins": 0,
-          "matchLosses": 6,
-          "gameWins": 2,
-          "gameLosses": 12
+          "matchLosses": 7,
+          "gameWins": 3,
+          "gameLosses": 14
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-16T17:15:00Z",
-          "blockName": "Week 4",
-          "team1": "Fnatic",
-          "code1": "FNC",
-          "image1": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "wins1": 2,
-          "team2": "G2 Esports",
-          "code2": "G2",
-          "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-17T15:00:00Z",
           "blockName": "Week 4",
@@ -200,6 +188,18 @@
           "code2": "TH",
           "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-23T17:15:00Z",
+          "blockName": "Week 5",
+          "team1": "Shifters",
+          "code1": "SHFT",
+          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
+          "wins1": 1,
+          "team2": "Karmine Corp",
+          "code2": "KC",
+          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
