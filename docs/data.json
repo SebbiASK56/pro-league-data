@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T11:06:39.916Z",
+  "generatedAt": "2026-08-23T11:33:27.676Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -622,13 +622,13 @@
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "image": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "matchWins": 8,
-          "matchLosses": 6,
+          "matchWins": 7,
+          "matchLosses": 7,
           "gameWins": 19,
-          "gameLosses": 16
+          "gameLosses": 17
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Xi'an Team WE",
           "code": "WE",
           "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
@@ -658,13 +658,13 @@
           "gameLosses": 24
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "EDWARD GAMING",
           "code": "EDG",
           "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "matchWins": 2,
-          "matchLosses": 12,
-          "gameWins": 6,
+          "matchWins": 3,
+          "matchLosses": 11,
+          "gameWins": 7,
           "gameLosses": 23
         }
       ],
@@ -751,7 +751,7 @@
           "team2": "EDWARD GAMING",
           "code2": "EDG",
           "image2": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "wins2": 0
+          "wins2": 1
         },
         {
           "startTime": "2026-08-23T11:00:00Z",
