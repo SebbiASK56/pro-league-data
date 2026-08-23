@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T07:57:26.404Z",
+  "generatedAt": "2026-08-23T08:40:36.057Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-23T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "Hanwha Life Esports",
-          "code1": "HLE",
-          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "team2": "T1",
-          "code2": "T1",
-          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-23T10:00:00Z",
           "blockName": "Week 13",
           "team1": "BNK FEARX",
@@ -574,6 +563,17 @@
         },
         {
           "startTime": "2026-09-01T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-02T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
