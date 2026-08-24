@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:06:31.992Z",
+  "generatedAt": "2026-08-24T19:42:59.929Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -15,16 +15,6 @@
         },
         {
           "rank": 2,
-          "name": "G2 Esports",
-          "code": "G2",
-          "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "matchWins": 6,
-          "matchLosses": 2,
-          "gameWins": 13,
-          "gameLosses": 5
-        },
-        {
-          "rank": 3,
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
@@ -34,7 +24,27 @@
           "gameLosses": 7
         },
         {
+          "rank": 3,
+          "name": "G2 Esports",
+          "code": "G2",
+          "image": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "matchWins": 6,
+          "matchLosses": 3,
+          "gameWins": 14,
+          "gameLosses": 7
+        },
+        {
           "rank": 4,
+          "name": "GIANTX",
+          "code": "GX",
+          "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "matchWins": 4,
+          "matchLosses": 3,
+          "gameWins": 10,
+          "gameLosses": 8
+        },
+        {
+          "rank": 5,
           "name": "Natus Vincere",
           "code": "NAVI",
           "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
@@ -42,16 +52,6 @@
           "matchLosses": 4,
           "gameWins": 9,
           "gameLosses": 9
-        },
-        {
-          "rank": 5,
-          "name": "GIANTX",
-          "code": "GX",
-          "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "matchWins": 3,
-          "matchLosses": 3,
-          "gameWins": 8,
-          "gameLosses": 7
         },
         {
           "rank": 6,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-17T17:15:00Z",
-          "blockName": "Week 4",
-          "team1": "Karmine Corp",
-          "code1": "KC",
-          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "wins1": 2,
-          "team2": "GIANTX",
-          "code2": "GX",
-          "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "wins2": 0
-        },
         {
           "startTime": "2026-08-21T15:00:00Z",
           "blockName": "Week 5",
@@ -199,6 +187,18 @@
           "team2": "Natus Vincere",
           "code2": "NAVI",
           "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "wins2": 2
+        },
+        {
+          "startTime": "2026-08-24T17:15:00Z",
+          "blockName": "Week 5",
+          "team1": "G2 Esports",
+          "code1": "G2",
+          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "wins1": 1,
+          "team2": "GIANTX",
+          "code2": "GX",
+          "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "wins2": 2
         }
       ],
