@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:08:27.001Z",
+  "generatedAt": "2026-08-24T09:04:19.385Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -498,23 +498,23 @@
         {
           "startTime": "2026-08-26T08:00:00Z",
           "blockName": "Play-Ins",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "kt Rolster",
+          "code1": "KT",
+          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
+          "team2": "HANJIN BRION",
+          "code2": "BRO",
+          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
           "bestOf": 5
         },
         {
           "startTime": "2026-08-27T08:00:00Z",
           "blockName": "Play-Ins",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "NONGSHIM RED FORCE",
+          "code1": "NS",
+          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "team2": "BNK FEARX",
+          "code2": "BFX",
+          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "bestOf": 5
         },
         {
@@ -534,9 +534,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "bestOf": 5
         },
         {
@@ -545,9 +545,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Dplus KIA",
+          "code2": "DK",
+          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "bestOf": 5
         },
         {
@@ -556,9 +556,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Gen.G Esports",
+          "code2": "GEN",
+          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "bestOf": 5
         },
         {
@@ -567,9 +567,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Hanwha Life Esports",
+          "code2": "HLE",
+          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "bestOf": 5
         },
         {
