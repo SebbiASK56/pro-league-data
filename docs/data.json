@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:01:46.741Z",
+  "generatedAt": "2026-08-24T14:57:35.578Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-24T15:00:00Z",
-          "blockName": "Week 5",
-          "team1": "Natus Vincere",
-          "code1": "NAVI",
-          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-24T17:15:00Z",
           "blockName": "Week 5",
           "team1": "GIANTX",
@@ -289,6 +278,17 @@
           "team2": "Movistar KOI",
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "bestOf": 3
+        },
+        {
+          "startTime": "2026-08-30T16:30:00Z",
+          "blockName": "Week 6",
+          "team1": "GIANTX",
+          "code1": "GX",
+          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "team2": "Fnatic",
+          "code2": "FNC",
+          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "bestOf": 3
         }
       ]
