@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T07:57:30.200Z",
+  "generatedAt": "2026-08-26T08:54:26.944Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -485,17 +485,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-26T08:00:00Z",
-          "blockName": "Play-Ins",
-          "team1": "kt Rolster",
-          "code1": "KT",
-          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "bestOf": 5
-        },
-        {
           "startTime": "2026-08-27T08:00:00Z",
           "blockName": "Play-Ins",
           "team1": "NONGSHIM RED FORCE",
@@ -563,6 +552,17 @@
         },
         {
           "startTime": "2026-09-03T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-04T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
