@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T03:23:58.529Z",
+  "generatedAt": "2026-08-27T14:29:55.811Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -387,18 +387,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-20T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "KIWOOM DRX",
-          "code1": "KRX",
-          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "wins1": 0,
-          "team2": "NONGSHIM RED FORCE",
-          "code2": "NS",
-          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "wins2": 2
-        },
-        {
           "startTime": "2026-08-21T08:00:00Z",
           "blockName": "Week 13",
           "team1": "BNK FEARX",
@@ -481,29 +469,30 @@
           "code2": "KT",
           "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "wins2": 3
+        },
+        {
+          "startTime": "2026-08-27T08:00:00Z",
+          "blockName": "Play-Ins",
+          "team1": "BNK FEARX",
+          "code1": "BFX",
+          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins1": 3,
+          "team2": "NONGSHIM RED FORCE",
+          "code2": "NS",
+          "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-27T08:00:00Z",
+          "startTime": "2026-08-28T08:00:00Z",
           "blockName": "Play-Ins",
-          "team1": "NONGSHIM RED FORCE",
-          "code1": "NS",
-          "image1": "http://static.lolesports.com/teams/NSFullonDark.png",
+          "team1": "HANJIN BRION",
+          "code1": "BRO",
+          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
           "team2": "BNK FEARX",
           "code2": "BFX",
           "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "bestOf": 5
-        },
-        {
-          "startTime": "2026-08-28T08:00:00Z",
-          "blockName": "Play-Ins",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
           "bestOf": 5
         },
         {
@@ -563,6 +552,17 @@
         },
         {
           "startTime": "2026-09-04T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-05T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
