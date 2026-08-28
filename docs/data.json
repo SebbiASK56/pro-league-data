@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T10:56:16.619Z",
+  "generatedAt": "2026-08-28T21:20:49.137Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -18,10 +18,10 @@
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "matchWins": 5,
+          "matchWins": 6,
           "matchLosses": 2,
-          "gameWins": 10,
-          "gameLosses": 7
+          "gameWins": 12,
+          "gameLosses": 8
         },
         {
           "rank": 3,
@@ -59,9 +59,9 @@
           "code": "FNC",
           "image": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
           "matchWins": 3,
-          "matchLosses": 4,
-          "gameWins": 8,
-          "gameLosses": 8
+          "matchLosses": 5,
+          "gameWins": 9,
+          "gameLosses": 10
         },
         {
           "rank": 7,
@@ -89,46 +89,22 @@
           "code": "TH",
           "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
           "matchWins": 2,
-          "matchLosses": 5,
+          "matchLosses": 6,
           "gameWins": 4,
-          "gameLosses": 11
+          "gameLosses": 13
         },
         {
           "rank": 10,
           "name": "Shifters",
           "code": "SHFT",
           "image": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "matchWins": 0,
+          "matchWins": 1,
           "matchLosses": 7,
-          "gameWins": 3,
+          "gameWins": 5,
           "gameLosses": 14
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-21T15:00:00Z",
-          "blockName": "Week 5",
-          "team1": "SK Gaming",
-          "code1": "SK",
-          "image1": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "wins1": 0,
-          "team2": "Team Heretics",
-          "code2": "TH",
-          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "wins2": 2
-        },
-        {
-          "startTime": "2026-08-21T17:15:00Z",
-          "blockName": "Week 5",
-          "team1": "Natus Vincere",
-          "code1": "NAVI",
-          "image1": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "wins1": 1,
-          "team2": "Team Vitality",
-          "code2": "VIT",
-          "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-22T15:00:00Z",
           "blockName": "Week 5",
@@ -200,31 +176,33 @@
           "code2": "GX",
           "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "wins2": 2
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-08-28T15:00:00Z",
           "blockName": "Week 6",
           "team1": "Team Heretics",
           "code1": "TH",
           "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins1": 0,
           "team2": "Shifters",
           "code2": "SHFT",
           "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "bestOf": 3
+          "wins2": 2
         },
         {
           "startTime": "2026-08-28T17:15:00Z",
           "blockName": "Week 6",
-          "team1": "Team Vitality",
-          "code1": "VIT",
-          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "bestOf": 3
-        },
+          "team1": "Fnatic",
+          "code1": "FNC",
+          "image1": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
+          "wins1": 1,
+          "team2": "Team Vitality",
+          "code2": "VIT",
+          "image2": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "wins2": 2
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-08-29T15:00:00Z",
           "blockName": "Week 6",
@@ -387,18 +365,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-21T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "BNK FEARX",
-          "code1": "BFX",
-          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "wins1": 2,
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins2": 1
-        },
-        {
           "startTime": "2026-08-21T10:00:00Z",
           "blockName": "Week 13",
           "team1": "T1",
@@ -481,29 +447,41 @@
           "code2": "NS",
           "image2": "http://static.lolesports.com/teams/NSFullonDark.png",
           "wins2": 1
+        },
+        {
+          "startTime": "2026-08-28T08:00:00Z",
+          "blockName": "Play-Ins",
+          "team1": "BNK FEARX",
+          "code1": "BFX",
+          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins1": 3,
+          "team2": "HANJIN BRION",
+          "code2": "BRO",
+          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
         {
           "startTime": "2026-08-29T08:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "T1",
+          "code1": "T1",
+          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "team2": "BNK FEARX",
+          "code2": "BFX",
+          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "bestOf": 5
         },
         {
           "startTime": "2026-08-30T08:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Dplus KIA",
+          "code1": "DK",
+          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "team2": "kt Rolster",
+          "code2": "KT",
+          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "bestOf": 5
         },
         {
@@ -512,9 +490,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Gen.G Esports",
+          "code2": "GEN",
+          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "bestOf": 5
         },
         {
@@ -523,9 +501,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Hanwha Life Esports",
+          "code2": "HLE",
+          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "bestOf": 5
         },
         {
@@ -752,30 +730,30 @@
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "wins2": 2
+          "wins2": 3
         }
       ],
       "upcoming": [
         {
           "startTime": "2026-08-29T09:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "TOP ESPORTS",
+          "code1": "TES",
+          "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "team2": "LGD GAMING",
+          "code2": "LGD",
+          "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "bestOf": 5
         },
         {
           "startTime": "2026-08-30T09:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Beijing JDG Esports",
+          "code1": "JDG",
+          "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "team2": "Xi'an Team WE",
+          "code2": "WE",
+          "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
           "bestOf": 5
         },
         {
@@ -784,9 +762,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "BILIBILI GAMING",
+          "code2": "BLG",
+          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "bestOf": 5
         },
         {
@@ -795,9 +773,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Anyone's Legend",
+          "code2": "AL",
+          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
           "bestOf": 5
         },
         {
@@ -806,9 +784,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Shenzhen NINJAS IN PYJAMAS",
+          "code2": "NIP",
+          "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
           "bestOf": 5
         },
         {
@@ -817,9 +795,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Invictus Gaming",
+          "code2": "IG",
+          "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
           "bestOf": 5
         },
         {
