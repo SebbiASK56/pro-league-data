@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T18:26:58.356Z",
+  "generatedAt": "2026-08-29T21:06:30.761Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -35,23 +35,23 @@
         },
         {
           "rank": 4,
+          "name": "Natus Vincere",
+          "code": "NAVI",
+          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "matchWins": 5,
+          "matchLosses": 4,
+          "gameWins": 11,
+          "gameLosses": 10
+        },
+        {
+          "rank": 5,
           "name": "GIANTX",
           "code": "GX",
           "image": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "matchWins": 4,
-          "matchLosses": 3,
-          "gameWins": 10,
-          "gameLosses": 8
-        },
-        {
-          "rank": 5,
-          "name": "Natus Vincere",
-          "code": "NAVI",
-          "image": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "matchWins": 4,
           "matchLosses": 4,
-          "gameWins": 9,
-          "gameLosses": 9
+          "gameWins": 11,
+          "gameLosses": 10
         },
         {
           "rank": 6,
@@ -105,18 +105,6 @@
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-22T17:15:00Z",
-          "blockName": "Week 5",
-          "team1": "Movistar KOI",
-          "code1": "MKOI",
-          "image1": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "wins1": 0,
-          "team2": "SK Gaming",
-          "code2": "SK",
-          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-23T15:00:00Z",
           "blockName": "Week 5",
@@ -200,6 +188,18 @@
           "code2": "SK",
           "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-08-29T17:15:00Z",
+          "blockName": "Week 6",
+          "team1": "GIANTX",
+          "code1": "GX",
+          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "wins1": 1,
+          "team2": "Natus Vincere",
+          "code2": "NAVI",
+          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "wins2": 2
         }
       ],
       "upcoming": [
