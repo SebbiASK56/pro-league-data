@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T10:14:05.736Z",
+  "generatedAt": "2026-08-29T15:06:53.409Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -204,17 +204,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-08-29T15:00:00Z",
-          "blockName": "Week 6",
-          "team1": "SK Gaming",
-          "code1": "SK",
-          "image1": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "team2": "Karmine Corp",
-          "code2": "KC",
-          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "bestOf": 3
-        },
-        {
           "startTime": "2026-08-29T17:15:00Z",
           "blockName": "Week 6",
           "team1": "Natus Vincere",
@@ -365,18 +354,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-21T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "T1",
-          "code1": "T1",
-          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "wins1": 2,
-          "team2": "kt Rolster",
-          "code2": "KT",
-          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "wins2": 1
-        },
-        {
           "startTime": "2026-08-22T08:00:00Z",
           "blockName": "Week 13",
           "team1": "Gen.G Esports",
@@ -459,6 +436,18 @@
           "code2": "BRO",
           "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
           "wins2": 2
+        },
+        {
+          "startTime": "2026-08-29T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "BNK FEARX",
+          "code1": "BFX",
+          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+          "wins1": 2,
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins2": 3
         }
       ],
       "upcoming": [
@@ -501,9 +490,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "BNK FEARX",
+          "code2": "BFX",
+          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
           "bestOf": 5
         },
         {
@@ -726,11 +715,11 @@
           "team1": "TOP ESPORTS",
           "code1": "TES",
           "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins1": 0,
+          "wins1": 2,
           "team2": "LGD GAMING",
           "code2": "LGD",
           "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins2": 1
+          "wins2": 3
         }
       ],
       "upcoming": [
@@ -759,9 +748,9 @@
         {
           "startTime": "2026-09-04T09:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "LGD GAMING",
+          "code1": "LGD",
+          "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
@@ -770,9 +759,9 @@
         {
           "startTime": "2026-09-05T06:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "TOP ESPORTS",
+          "code1": "TES",
+          "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
           "team2": "Shenzhen NINJAS IN PYJAMAS",
           "code2": "NIP",
           "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
