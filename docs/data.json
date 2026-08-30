@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:40:28.971Z",
+  "generatedAt": "2026-08-30T16:59:27.928Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -18,9 +18,9 @@
           "name": "Team Vitality",
           "code": "VIT",
           "image": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "matchWins": 6,
+          "matchWins": 7,
           "matchLosses": 2,
-          "gameWins": 12,
+          "gameWins": 14,
           "gameLosses": 8
         },
         {
@@ -55,6 +55,16 @@
         },
         {
           "rank": 6,
+          "name": "Movistar KOI",
+          "code": "MKOI",
+          "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "matchWins": 4,
+          "matchLosses": 5,
+          "gameWins": 10,
+          "gameLosses": 12
+        },
+        {
+          "rank": 7,
           "name": "Fnatic",
           "code": "FNC",
           "image": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
@@ -62,16 +72,6 @@
           "matchLosses": 5,
           "gameWins": 9,
           "gameLosses": 10
-        },
-        {
-          "rank": 7,
-          "name": "Movistar KOI",
-          "code": "MKOI",
-          "image": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "matchWins": 3,
-          "matchLosses": 5,
-          "gameWins": 8,
-          "gameLosses": 12
         },
         {
           "rank": 8,
@@ -89,9 +89,9 @@
           "code": "TH",
           "image": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
           "matchWins": 2,
-          "matchLosses": 6,
+          "matchLosses": 7,
           "gameWins": 4,
-          "gameLosses": 13
+          "gameLosses": 15
         },
         {
           "rank": 10,
@@ -99,36 +99,12 @@
           "code": "SHFT",
           "image": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
           "matchWins": 1,
-          "matchLosses": 7,
+          "matchLosses": 8,
           "gameWins": 5,
-          "gameLosses": 14
+          "gameLosses": 16
         }
       ],
       "results": [
-        {
-          "startTime": "2026-08-23T15:00:00Z",
-          "blockName": "Week 5",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "wins1": 2,
-          "team2": "Team Heretics",
-          "code2": "TH",
-          "image2": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
-          "wins2": 0
-        },
-        {
-          "startTime": "2026-08-23T17:15:00Z",
-          "blockName": "Week 5",
-          "team1": "Shifters",
-          "code1": "SHFT",
-          "image1": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
-          "wins1": 1,
-          "team2": "Karmine Corp",
-          "code2": "KC",
-          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "wins2": 2
-        },
         {
           "startTime": "2026-08-24T15:00:00Z",
           "blockName": "Week 5",
@@ -200,32 +176,33 @@
           "code2": "NAVI",
           "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
           "wins2": 2
-        }
-      ],
-      "upcoming": [
+        },
+        {
+          "startTime": "2026-08-30T12:00:00Z",
+          "blockName": "Week 6",
+          "team1": "Team Vitality",
+          "code1": "VIT",
+          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "wins1": 2,
+          "team2": "Shifters",
+          "code2": "SHFT",
+          "image2": "http://static.lolesports.com/teams/1765897071435_600px-Shifters_allmode.png",
+          "wins2": 0
+        },
         {
           "startTime": "2026-08-30T14:15:00Z",
           "blockName": "Week 6",
           "team1": "Team Heretics",
           "code1": "TH",
           "image1": "http://static.lolesports.com/teams/1672933861879_Heretics-Full-Color.png",
+          "wins1": 0,
           "team2": "Movistar KOI",
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "bestOf": 3
-        },
-        {
-          "startTime": "2026-08-30T16:30:00Z",
-          "blockName": "Week 6",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "team2": "Fnatic",
-          "code2": "FNC",
-          "image2": "http://static.lolesports.com/teams/1631819669150_fnc-2021-worlds.png",
-          "bestOf": 3
+          "wins2": 2
         }
-      ]
+      ],
+      "upcoming": []
     },
     "LCK": {
       "standings": [
