@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T01:19:55.381Z",
+  "generatedAt": "2026-08-30T06:54:14.908Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -615,18 +615,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-22T09:00:00Z",
-          "blockName": "Week 5",
-          "team1": "Shenzhen NINJAS IN PYJAMAS",
-          "code1": "NIP",
-          "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins1": 2,
-          "team2": "Invictus Gaming",
-          "code2": "IG",
-          "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "wins2": 0
-        },
-        {
           "startTime": "2026-08-22T11:00:00Z",
           "blockName": "Week 5",
           "team1": "Beijing JDG Esports",
@@ -709,20 +697,21 @@
           "code2": "LGD",
           "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "wins2": 3
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-08-30T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "Beijing JDG Esports",
           "code1": "JDG",
           "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "wins1": 0,
           "team2": "Xi'an Team WE",
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-03T09:00:00Z",
           "blockName": "Playoffs",
@@ -791,6 +780,17 @@
         },
         {
           "startTime": "2026-09-07T09:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-08T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
