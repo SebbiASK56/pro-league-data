@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T07:46:22.338Z",
+  "generatedAt": "2026-09-01T12:48:42.870Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -202,7 +202,96 @@
           "wins2": 1
         }
       ],
-      "upcoming": []
+      "upcoming": [
+        {
+          "startTime": "2026-09-05T10:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "Team Vitality",
+          "code1": "VIT",
+          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
+          "team2": "G2 Esports",
+          "code2": "G2",
+          "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-05T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "Karmine Corp",
+          "code1": "KC",
+          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
+          "team2": "GIANTX",
+          "code2": "GX",
+          "image2": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-06T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-11T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Natus Vincere",
+          "code2": "NAVI",
+          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-12T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Movistar KOI",
+          "code2": "MKOI",
+          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-18T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-19T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-20T15:00:00Z",
+          "blockName": "Finals",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        }
+      ]
     },
     "LCK": {
       "standings": [
@@ -309,18 +398,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-22T10:00:00Z",
-          "blockName": "Week 13",
-          "team1": "KIWOOM DRX",
-          "code1": "KRX",
-          "image1": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "wins1": 0,
-          "team2": "DN SOOPers",
-          "code2": "DNS",
-          "image2": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "wins2": 2
-        },
-        {
           "startTime": "2026-08-23T08:00:00Z",
           "blockName": "Week 13",
           "team1": "T1",
@@ -403,20 +480,21 @@
           "code2": "DK",
           "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "wins2": 0
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-01T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "Gen.G Esports",
           "code1": "GEN",
           "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "wins1": 3,
           "team2": "kt Rolster",
           "code2": "KT",
           "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-02T08:00:00Z",
           "blockName": "Playoffs",
@@ -456,9 +534,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Gen.G Esports",
+          "code2": "GEN",
+          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "bestOf": 5
         },
         {
