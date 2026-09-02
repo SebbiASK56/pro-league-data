@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T04:58:37.113Z",
+  "generatedAt": "2026-09-02T09:28:38.293Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-09-02T08:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Hanwha Life Esports",
-          "code1": "HLE",
-          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "team2": "T1",
-          "code2": "T1",
-          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "bestOf": 5
-        },
-        {
           "startTime": "2026-09-03T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "Dplus KIA",
@@ -551,7 +540,7 @@
           "bestOf": 5
         },
         {
-          "startTime": "2026-09-12T08:00:00Z",
+          "startTime": "2026-09-12T05:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
@@ -562,7 +551,7 @@
           "bestOf": 5
         },
         {
-          "startTime": "2026-09-13T08:00:00Z",
+          "startTime": "2026-09-13T05:00:00Z",
           "blockName": "Finals",
           "team1": "TBD",
           "code1": "TBD",
