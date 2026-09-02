@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:28:38.293Z",
+  "generatedAt": "2026-09-02T13:49:32.873Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -398,18 +398,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-23T08:00:00Z",
-          "blockName": "Week 13",
-          "team1": "T1",
-          "code1": "T1",
-          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "wins1": 0,
-          "team2": "Hanwha Life Esports",
-          "code2": "HLE",
-          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "wins2": 2
-        },
-        {
           "startTime": "2026-08-23T10:00:00Z",
           "blockName": "Week 13",
           "team1": "NONGSHIM RED FORCE",
@@ -492,6 +480,18 @@
           "code2": "KT",
           "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
           "wins2": 0
+        },
+        {
+          "startTime": "2026-09-02T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "T1",
+          "code1": "T1",
+          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins1": 2,
+          "team2": "Hanwha Life Esports",
+          "code2": "HLE",
+          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "wins2": 3
         }
       ],
       "upcoming": [
@@ -520,9 +520,9 @@
         {
           "startTime": "2026-09-05T08:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "team2": "Gen.G Esports",
           "code2": "GEN",
           "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
