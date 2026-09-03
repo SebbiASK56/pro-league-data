@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T05:06:19.301Z",
+  "generatedAt": "2026-09-03T09:45:40.492Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -496,17 +496,6 @@
       ],
       "upcoming": [
         {
-          "startTime": "2026-09-03T08:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "team2": "BNK FEARX",
-          "code2": "BFX",
-          "image2": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "bestOf": 5
-        },
-        {
           "startTime": "2026-09-04T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
@@ -648,18 +637,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-22T11:00:00Z",
-          "blockName": "Week 5",
-          "team1": "Beijing JDG Esports",
-          "code1": "JDG",
-          "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins1": 2,
-          "team2": "TOP ESPORTS",
-          "code2": "TES",
-          "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins2": 0
-        },
-        {
           "startTime": "2026-08-23T07:00:00Z",
           "blockName": "Week 5",
           "team1": "THUNDER TALK GAMING",
@@ -742,20 +719,21 @@
           "code2": "WE",
           "image2": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
           "wins2": 3
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-03T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "Xi'an Team WE",
           "code1": "WE",
           "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "wins1": 0,
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-04T09:00:00Z",
           "blockName": "Playoffs",
@@ -824,6 +802,17 @@
         },
         {
           "startTime": "2026-09-08T09:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-12T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "TBD",
           "code1": "TBD",
