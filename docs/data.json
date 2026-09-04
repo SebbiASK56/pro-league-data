@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:30:22.146Z",
+  "generatedAt": "2026-09-04T13:46:21.410Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -398,18 +398,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-26T08:00:00Z",
-          "blockName": "Play-Ins",
-          "team1": "HANJIN BRION",
-          "code1": "BRO",
-          "image1": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins1": 2,
-          "team2": "kt Rolster",
-          "code2": "KT",
-          "image2": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "wins2": 3
-        },
-        {
           "startTime": "2026-08-27T08:00:00Z",
           "blockName": "Play-Ins",
           "team1": "BNK FEARX",
@@ -492,6 +480,18 @@
           "code2": "DK",
           "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "wins2": 3
+        },
+        {
+          "startTime": "2026-09-04T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "kt Rolster",
+          "code1": "KT",
+          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
+          "wins1": 1,
+          "team2": "Dplus KIA",
+          "code2": "DK",
+          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "wins2": 3
         }
       ],
       "upcoming": [
@@ -509,9 +509,9 @@
         {
           "startTime": "2026-09-06T08:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Dplus KIA",
+          "code1": "DK",
+          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
           "team2": "T1",
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
@@ -715,11 +715,11 @@
           "team1": "LGD GAMING",
           "code1": "LGD",
           "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins1": 0,
+          "wins1": 1,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins2": 0
+          "wins2": 3
         }
       ],
       "upcoming": [
@@ -762,20 +762,20 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "LGD GAMING",
+          "code2": "LGD",
+          "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "bestOf": 5
         },
         {
           "startTime": "2026-09-07T09:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "BILIBILI GAMING",
-          "code2": "BLG",
-          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "team1": "BILIBILI GAMING",
+          "code1": "BLG",
+          "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "team2": "Anyone's Legend",
+          "code2": "AL",
+          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
           "bestOf": 5
         },
         {
