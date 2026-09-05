@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T13:45:19.965Z",
+  "generatedAt": "2026-09-05T16:18:03.373Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -682,7 +682,7 @@
           "team1": "Shenzhen NINJAS IN PYJAMAS",
           "code1": "NIP",
           "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins1": 2,
+          "wins1": 3,
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
@@ -704,12 +704,12 @@
         {
           "startTime": "2026-09-06T09:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "LGD GAMING",
-          "code2": "LGD",
-          "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+          "team1": "LGD GAMING",
+          "code1": "LGD",
+          "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+          "team2": "Shenzhen NINJAS IN PYJAMAS",
+          "code2": "NIP",
+          "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
           "bestOf": 5
         },
         {
