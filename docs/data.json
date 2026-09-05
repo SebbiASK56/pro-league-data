@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T01:44:56.687Z",
+  "generatedAt": "2026-09-05T06:20:24.277Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -626,30 +626,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-23T09:00:00Z",
-          "blockName": "Week 5",
-          "team1": "Beijing JDG Esports",
-          "code1": "JDG",
-          "image1": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins1": 2,
-          "team2": "EDWARD GAMING",
-          "code2": "EDG",
-          "image2": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "wins2": 1
-        },
-        {
-          "startTime": "2026-08-23T11:00:00Z",
-          "blockName": "Week 5",
-          "team1": "Anyone's Legend",
-          "code1": "AL",
-          "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 1,
-          "team2": "BILIBILI GAMING",
-          "code2": "BLG",
-          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 2
-        },
-        {
           "startTime": "2026-08-28T06:00:00Z",
           "blockName": "Play In Knockouts",
           "team1": "EDWARD GAMING",
@@ -720,19 +696,18 @@
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
           "wins2": 3
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-05T06:00:00Z",
           "blockName": "Playoffs",
           "team1": "Invictus Gaming",
           "code1": "IG",
           "image1": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+          "wins1": 0,
           "team2": "TOP ESPORTS",
           "code2": "TES",
           "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "bestOf": 5
+          "wins2": 0
         },
         {
           "startTime": "2026-09-05T09:00:00Z",
@@ -740,11 +715,14 @@
           "team1": "Shenzhen NINJAS IN PYJAMAS",
           "code1": "NIP",
           "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
+          "wins1": 0,
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-06T06:00:00Z",
           "blockName": "Playoffs",
@@ -803,6 +781,28 @@
         {
           "startTime": "2026-09-13T09:00:00Z",
           "blockName": "Finals",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-17T09:00:00Z",
+          "blockName": "Regional Qualifier",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-18T09:00:00Z",
+          "blockName": "Regional Qualifier",
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
