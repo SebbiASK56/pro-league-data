@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T12:42:50.587Z",
+  "generatedAt": "2026-09-06T15:49:52.475Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -203,17 +203,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-06T15:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "G2 Esports",
-          "code1": "G2",
-          "image1": "http://static.lolesports.com/teams/G2-FullonDark.png",
-          "team2": "Karmine Corp",
-          "code2": "KC",
-          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-11T15:00:00Z",
           "blockName": "Playoffs",
@@ -582,30 +571,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-28T06:00:00Z",
-          "blockName": "Play In Knockouts",
-          "team1": "EDWARD GAMING",
-          "code1": "EDG",
-          "image1": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "wins1": 0,
-          "team2": "Shenzhen NINJAS IN PYJAMAS",
-          "code2": "NIP",
-          "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins2": 3
-        },
-        {
-          "startTime": "2026-08-28T09:00:00Z",
-          "blockName": "Play In Knockouts",
-          "team1": "THUNDER TALK GAMING",
-          "code1": "TT",
-          "image1": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "wins1": 0,
-          "team2": "Invictus Gaming",
-          "code2": "IG",
-          "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "wins2": 3
-        },
-        {
           "startTime": "2026-08-29T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "TOP ESPORTS",
@@ -676,19 +641,18 @@
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
           "wins2": 0
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-06T06:00:00Z",
           "blockName": "Playoffs",
           "team1": "Xi'an Team WE",
           "code1": "WE",
           "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "wins1": 1,
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "bestOf": 5
+          "wins2": 3
         },
         {
           "startTime": "2026-09-06T09:00:00Z",
@@ -696,11 +660,14 @@
           "team1": "LGD GAMING",
           "code1": "LGD",
           "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
+          "wins1": 3,
           "team2": "Shenzhen NINJAS IN PYJAMAS",
           "code2": "NIP",
           "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "bestOf": 5
-        },
+          "wins2": 2
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-07T09:00:00Z",
           "blockName": "Playoffs",
@@ -715,9 +682,9 @@
         {
           "startTime": "2026-09-08T09:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "LGD GAMING",
+          "code1": "LGD",
+          "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
@@ -758,6 +725,17 @@
         },
         {
           "startTime": "2026-09-18T09:00:00Z",
+          "blockName": "Regional Qualifier",
+          "team1": "TBD",
+          "code1": "TBD",
+          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "TBD",
+          "code2": "TBD",
+          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "bestOf": 5
+        },
+        {
+          "startTime": "2026-09-19T09:00:00Z",
           "blockName": "Regional Qualifier",
           "team1": "TBD",
           "code1": "TBD",
