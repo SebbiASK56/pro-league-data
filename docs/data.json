@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T08:53:45.533Z",
+  "generatedAt": "2026-09-06T12:42:50.587Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -376,18 +376,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-28T08:00:00Z",
-          "blockName": "Play-Ins",
-          "team1": "BNK FEARX",
-          "code1": "BFX",
-          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "wins1": 3,
-          "team2": "HANJIN BRION",
-          "code2": "BRO",
-          "image2": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "wins2": 2
-        },
-        {
           "startTime": "2026-08-29T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "BNK FEARX",
@@ -470,15 +458,27 @@
           "code2": "GEN",
           "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "wins2": 3
+        },
+        {
+          "startTime": "2026-09-06T08:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "Dplus KIA",
+          "code1": "DK",
+          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+          "wins1": 1,
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins2": 3
         }
       ],
       "upcoming": [
         {
           "startTime": "2026-09-12T05:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "T1",
+          "code1": "T1",
+          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "team2": "Hanwha Life Esports",
           "code2": "HLE",
           "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
@@ -718,9 +718,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Invictus Gaming",
+          "code2": "IG",
+          "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
           "bestOf": 5
         },
         {
