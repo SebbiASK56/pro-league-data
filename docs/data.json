@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T04:32:56.111Z",
+  "generatedAt": "2026-09-06T08:53:45.533Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -473,17 +473,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-06T08:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Dplus KIA",
-          "code1": "DK",
-          "image1": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "team2": "T1",
-          "code2": "T1",
-          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-12T05:00:00Z",
           "blockName": "Playoffs",
