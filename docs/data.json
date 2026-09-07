@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T08:39:37.829Z",
+  "generatedAt": "2026-09-07T14:27:52.880Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -660,7 +660,7 @@
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins1": 0,
+          "wins1": 3,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
@@ -685,9 +685,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Anyone's Legend",
+          "code2": "AL",
+          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
           "bestOf": 5
         },
         {
@@ -696,9 +696,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "BILIBILI GAMING",
+          "code2": "BLG",
+          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "bestOf": 5
         },
         {
