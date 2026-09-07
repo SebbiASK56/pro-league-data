@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T03:44:28.321Z",
+  "generatedAt": "2026-09-07T08:39:37.829Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -206,9 +206,9 @@
         {
           "startTime": "2026-09-11T15:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "GIANTX",
+          "code1": "GX",
+          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
           "team2": "Natus Vincere",
           "code2": "NAVI",
           "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
@@ -217,9 +217,9 @@
         {
           "startTime": "2026-09-12T15:00:00Z",
           "blockName": "Playoffs",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Team Vitality",
+          "code1": "VIT",
+          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
           "team2": "Movistar KOI",
           "code2": "MKOI",
           "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
@@ -571,18 +571,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-29T09:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "TOP ESPORTS",
-          "code1": "TES",
-          "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins1": 2,
-          "team2": "LGD GAMING",
-          "code2": "LGD",
-          "image2": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins2": 3
-        },
-        {
           "startTime": "2026-08-30T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "Beijing JDG Esports",
@@ -665,20 +653,21 @@
           "code2": "NIP",
           "image2": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
           "wins2": 2
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-07T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "BILIBILI GAMING",
           "code1": "BLG",
           "image1": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+          "wins1": 0,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-08T09:00:00Z",
           "blockName": "Playoffs",
