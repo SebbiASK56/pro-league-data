@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:56:00.131Z",
+  "generatedAt": "2026-09-11T17:40:51.252Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -203,17 +203,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-11T15:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "GIANTX",
-          "code1": "GX",
-          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
-          "team2": "Natus Vincere",
-          "code2": "NAVI",
-          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-12T15:00:00Z",
           "blockName": "Playoffs",
