@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:40:51.252Z",
+  "generatedAt": "2026-09-11T20:04:45.507Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -106,18 +106,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-29T15:00:00Z",
-          "blockName": "Week 6",
-          "team1": "Karmine Corp",
-          "code1": "KC",
-          "image1": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "wins1": 2,
-          "team2": "SK Gaming",
-          "code2": "SK",
-          "image2": "http://static.lolesports.com/teams/1643979272144_SK_Monochrome.png",
-          "wins2": 0
-        },
-        {
           "startTime": "2026-08-29T17:15:00Z",
           "blockName": "Week 6",
           "team1": "GIANTX",
@@ -200,6 +188,18 @@
           "code2": "G2",
           "image2": "http://static.lolesports.com/teams/G2-FullonDark.png",
           "wins2": 3
+        },
+        {
+          "startTime": "2026-09-11T15:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "GIANTX",
+          "code1": "GX",
+          "image1": "http://static.lolesports.com/teams/1765897105091_GIANTX-logotype-white.png",
+          "wins1": 2,
+          "team2": "Natus Vincere",
+          "code2": "NAVI",
+          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
+          "wins2": 3
         }
       ],
       "upcoming": [
@@ -220,9 +220,9 @@
           "team1": "TBD",
           "code1": "TBD",
           "image1": "https://static.lolesports.com/teams/team-tbd.png",
-          "team2": "TBD",
-          "code2": "TBD",
-          "image2": "https://static.lolesports.com/teams/team-tbd.png",
+          "team2": "Natus Vincere",
+          "code2": "NAVI",
+          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
           "bestOf": 5
         },
         {
