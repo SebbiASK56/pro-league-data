@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:55:33.865Z",
+  "generatedAt": "2026-09-12T16:07:15.914Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -203,17 +203,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-12T15:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Team Vitality",
-          "code1": "VIT",
-          "image1": "http://static.lolesports.com/teams/1675865863968_Vitality_FullColor.png",
-          "team2": "Movistar KOI",
-          "code2": "MKOI",
-          "image2": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-18T15:00:00Z",
           "blockName": "Playoffs",
@@ -642,16 +631,16 @@
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins2": 2
+          "wins2": 3
         }
       ],
       "upcoming": [
         {
           "startTime": "2026-09-13T09:00:00Z",
           "blockName": "Finals",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Anyone's Legend",
+          "code1": "AL",
+          "image1": "http://static.lolesports.com/teams/1641199582689_.png",
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
