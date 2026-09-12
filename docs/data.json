@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:36:55.174Z",
+  "generatedAt": "2026-09-12T05:03:01.995Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -451,17 +451,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-12T05:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "T1",
-          "code1": "T1",
-          "image1": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "team2": "Hanwha Life Esports",
-          "code2": "HLE",
-          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-13T05:00:00Z",
           "blockName": "Finals",
