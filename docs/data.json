@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:03:01.995Z",
+  "generatedAt": "2026-09-12T09:16:11.610Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -354,18 +354,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-29T08:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "BNK FEARX",
-          "code1": "BFX",
-          "image1": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "wins1": 2,
-          "team2": "T1",
-          "code2": "T1",
-          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "wins2": 3
-        },
-        {
           "startTime": "2026-08-30T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "kt Rolster",
@@ -448,15 +436,27 @@
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "wins2": 3
+        },
+        {
+          "startTime": "2026-09-12T05:00:00Z",
+          "blockName": "Playoffs",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "wins1": 3,
+          "team2": "T1",
+          "code2": "T1",
+          "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins2": 1
         }
       ],
       "upcoming": [
         {
           "startTime": "2026-09-13T05:00:00Z",
           "blockName": "Finals",
-          "team1": "TBD",
-          "code1": "TBD",
-          "image1": "https://static.lolesports.com/teams/team-tbd.png",
+          "team1": "Hanwha Life Esports",
+          "code1": "HLE",
+          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "team2": "Gen.G Esports",
           "code2": "GEN",
           "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
@@ -549,18 +549,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-09-03T09:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Xi'an Team WE",
-          "code1": "WE",
-          "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "wins1": 1,
-          "team2": "BILIBILI GAMING",
-          "code2": "BLG",
-          "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 3
-        },
-        {
           "startTime": "2026-09-04T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "LGD GAMING",
@@ -643,20 +631,21 @@
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
           "wins2": 3
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-12T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "Invictus Gaming",
           "code1": "IG",
           "image1": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+          "wins1": 0,
           "team2": "Anyone's Legend",
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-13T09:00:00Z",
           "blockName": "Finals",
