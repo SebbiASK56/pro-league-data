@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T00:27:15.407Z",
+  "generatedAt": "2026-09-13T05:17:27.834Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -439,19 +439,7 @@
           "wins2": 1
         }
       ],
-      "upcoming": [
-        {
-          "startTime": "2026-09-13T05:00:00Z",
-          "blockName": "Finals",
-          "team1": "Hanwha Life Esports",
-          "code1": "HLE",
-          "image1": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "team2": "Gen.G Esports",
-          "code2": "GEN",
-          "image2": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "bestOf": 5
-        }
-      ]
+      "upcoming": []
     },
     "LPL": {
       "standings": [
