@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T10:23:25.814Z",
+  "generatedAt": "2026-09-13T14:35:53.695Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -615,11 +615,11 @@
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins1": 1,
+          "wins1": 3,
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "wins2": 0
+          "wins2": 1
         }
       ],
       "upcoming": [
