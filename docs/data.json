@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T05:17:27.834Z",
+  "generatedAt": "2026-09-13T10:23:25.814Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -343,18 +343,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-08-30T08:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "kt Rolster",
-          "code1": "KT",
-          "image1": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "wins1": 3,
-          "team2": "Dplus KIA",
-          "code2": "DK",
-          "image2": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "wins2": 0
-        },
-        {
           "startTime": "2026-09-01T08:00:00Z",
           "blockName": "Playoffs",
           "team1": "Gen.G Esports",
@@ -436,6 +424,18 @@
           "team2": "T1",
           "code2": "T1",
           "image2": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+          "wins2": 1
+        },
+        {
+          "startTime": "2026-09-13T05:00:00Z",
+          "blockName": "Finals",
+          "team1": "Gen.G Esports",
+          "code1": "GEN",
+          "image1": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+          "wins1": 3,
+          "team2": "Hanwha Life Esports",
+          "code2": "HLE",
+          "image2": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
           "wins2": 1
         }
       ],
@@ -526,18 +526,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-09-04T09:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "LGD GAMING",
-          "code1": "LGD",
-          "image1": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "wins1": 1,
-          "team2": "Anyone's Legend",
-          "code2": "AL",
-          "image2": "http://static.lolesports.com/teams/1641199582689_.png",
-          "wins2": 3
-        },
-        {
           "startTime": "2026-09-05T06:00:00Z",
           "blockName": "Playoffs",
           "team1": "Invictus Gaming",
@@ -620,20 +608,21 @@
           "code2": "AL",
           "image2": "http://static.lolesports.com/teams/1641199582689_.png",
           "wins2": 3
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-13T09:00:00Z",
           "blockName": "Finals",
           "team1": "Anyone's Legend",
           "code1": "AL",
           "image1": "http://static.lolesports.com/teams/1641199582689_.png",
+          "wins1": 1,
           "team2": "BILIBILI GAMING",
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-17T09:00:00Z",
           "blockName": "Regional Qualifier",
