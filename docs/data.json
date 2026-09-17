@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T05:21:28.804Z",
+  "generatedAt": "2026-09-17T10:17:48.101Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -526,18 +526,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-09-05T06:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Invictus Gaming",
-          "code1": "IG",
-          "image1": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "wins1": 3,
-          "team2": "TOP ESPORTS",
-          "code2": "TES",
-          "image2": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "wins2": 2
-        },
-        {
           "startTime": "2026-09-05T09:00:00Z",
           "blockName": "Playoffs",
           "team1": "Shenzhen NINJAS IN PYJAMAS",
@@ -620,20 +608,21 @@
           "code2": "BLG",
           "image2": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
           "wins2": 1
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-17T09:00:00Z",
           "blockName": "Regional Qualifier",
           "team1": "TOP ESPORTS",
           "code1": "TES",
           "image1": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "wins1": 0,
           "team2": "Invictus Gaming",
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "bestOf": 5
-        },
+          "wins2": 1
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-18T09:00:00Z",
           "blockName": "Regional Qualifier",
