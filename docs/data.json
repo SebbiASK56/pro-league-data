@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:46:36.357Z",
+  "generatedAt": "2026-09-18T17:17:38.680Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -203,17 +203,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-18T15:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Movistar KOI",
-          "code1": "MKOI",
-          "image1": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "team2": "Natus Vincere",
-          "code2": "NAVI",
-          "image2": "http://static.lolesports.com/teams/1752746833620_NAVI_FullColor.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-19T15:00:00Z",
           "blockName": "Playoffs",
