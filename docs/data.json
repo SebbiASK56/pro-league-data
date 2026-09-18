@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:53:05.447Z",
+  "generatedAt": "2026-09-18T09:29:15.739Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -526,18 +526,6 @@
       ],
       "results": [
         {
-          "startTime": "2026-09-05T09:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Shenzhen NINJAS IN PYJAMAS",
-          "code1": "NIP",
-          "image1": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "wins1": 3,
-          "team2": "Beijing JDG Esports",
-          "code2": "JDG",
-          "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "wins2": 0
-        },
-        {
           "startTime": "2026-09-06T06:00:00Z",
           "blockName": "Playoffs",
           "team1": "Xi'an Team WE",
@@ -620,20 +608,21 @@
           "code2": "IG",
           "image2": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
           "wins2": 1
-        }
-      ],
-      "upcoming": [
+        },
         {
           "startTime": "2026-09-18T09:00:00Z",
           "blockName": "Regional Qualifier",
           "team1": "Xi'an Team WE",
           "code1": "WE",
           "image1": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "wins1": 0,
           "team2": "Beijing JDG Esports",
           "code2": "JDG",
           "image2": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "bestOf": 5
-        },
+          "wins2": 0
+        }
+      ],
+      "upcoming": [
         {
           "startTime": "2026-09-19T09:00:00Z",
           "blockName": "Regional Qualifier",
