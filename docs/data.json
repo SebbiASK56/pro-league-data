@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T13:03:17.586Z",
+  "generatedAt": "2026-09-19T16:26:43.881Z",
   "leagues": {
     "LEC": {
       "standings": [
@@ -203,17 +203,6 @@
         }
       ],
       "upcoming": [
-        {
-          "startTime": "2026-09-19T15:00:00Z",
-          "blockName": "Playoffs",
-          "team1": "Movistar KOI",
-          "code1": "MKOI",
-          "image1": "http://static.lolesports.com/teams/1734012609283_MKOI_FullColor_Blue.png",
-          "team2": "Karmine Corp",
-          "code2": "KC",
-          "image2": "http://static.lolesports.com/teams/1704714951336_KC.png",
-          "bestOf": 5
-        },
         {
           "startTime": "2026-09-20T15:00:00Z",
           "blockName": "Finals",
